@@ -1,0 +1,40 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/2552__1800_1800.png",
+  "status": "error",
+  "input_sha256": "f44fa5e0afc2ddd95da430f44b16f86b014e385bc4bc23c967675cb39468bea9",
+  "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/2552__1800_1800.png.json",
+  "attempts": [
+    {
+      "do_sample": false,
+      "seed": 0,
+      "max_new_tokens": 4096,
+      "max_time": 90,
+      "generated_tokens": 544,
+      "generation_limit_reached": false,
+      "ended_with_eos": false,
+      "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/2552__1800_1800_attempt1_response.txt",
+      "elapsed_seconds": 16.226,
+      "error": "ValueError: Coordinates outside 0..1000: [817, 982, 836, 1004]"
+    }
+  ],
+  "width": 800,
+  "height": 800,
+  "image_grid_thw": [
+    [
+      1,
+      50,
+      50
+    ]
+  ],
+  "pixel_values_shape": [
+    2500,
+    1536
+  ],
+  "processed_image_size_wh": [
+    800,
+    800
+  ],
+  "visual_tokens": 625,
+  "error": "RuntimeError: ValueError: Coordinates outside 0..1000: [817, 982, 836, 1004]",
+  "elapsed_seconds": 16.27
+}

@@ -1,0 +1,48 @@
+{
+  "image": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp6/1dc20e8b1_crop_tiny.png",
+  "status": "ok",
+  "input_sha256": "ffd0ef4e5688d11afd396aa5f4c5d9a656db161b20035d99d0d9c01a8ba09f65",
+  "width": 100,
+  "height": 100,
+  "image_grid_thw": [
+    [
+      1,
+      16,
+      16
+    ]
+  ],
+  "pixel_values_shape": [
+    256,
+    1536
+  ],
+  "visual_tokens": 64,
+  "processed_image_size_wh": [
+    256,
+    256
+  ],
+  "raw_output": "```json\n[\n\t{\"bbox_2d\": [400, 440, 500, 520], \"label\": \"ship\"}\n]\n```",
+  "full_output": "```json\n[\n\t{\"bbox_2d\": [400, 440, 500, 520], \"label\": \"ship\"}\n]\n```<|im_end|>",
+  "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp6/1dc20e8b1_crop_tiny_response.txt",
+  "generated_tokens": 40,
+  "generation_limit_reached": false,
+  "detections": [
+    {
+      "label": "ship",
+      "bbox_2d": [
+        400.0,
+        440.0,
+        500.0,
+        520.0
+      ],
+      "bbox_xyxy": [
+        40.0,
+        44.0,
+        50.0,
+        52.0
+      ]
+    }
+  ],
+  "warnings": [],
+  "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp6/1dc20e8b1_crop_tiny_vis.png",
+  "elapsed_seconds": 4.739
+}

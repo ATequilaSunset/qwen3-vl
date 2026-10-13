@@ -1,0 +1,29 @@
+{
+  "image": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/1dc20e8b1_crop_tiny.png",
+  "status": "ok",
+  "width": 100,
+  "height": 100,
+  "raw_output": "```json\n[\n\t{\"bbox_2d\": [450, 475, 550, 530], \"label\": \"ship\"}\n]\n```",
+  "generated_tokens": 40,
+  "generation_limit_reached": false,
+  "detections": [
+    {
+      "label": "ship",
+      "bbox_2d": [
+        450.0,
+        475.0,
+        550.0,
+        530.0
+      ],
+      "bbox_xyxy": [
+        45.0,
+        47.5,
+        55.0,
+        53.0
+      ]
+    }
+  ],
+  "warnings": [],
+  "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp2/1dc20e8b1_crop_tiny_vis.png",
+  "elapsed_seconds": 3.921
+}

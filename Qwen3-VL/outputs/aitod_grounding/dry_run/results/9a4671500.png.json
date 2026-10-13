@@ -1,0 +1,65 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/9a4671500.png",
+  "status": "dry_run",
+  "width": 800,
+  "height": 800,
+  "image_id": 27143,
+  "ground_truth": [
+    {
+      "label": "ship",
+      "bbox_xyxy": [
+        59.0,
+        597.0,
+        73.0,
+        611.0
+      ]
+    },
+    {
+      "label": "ship",
+      "bbox_xyxy": [
+        140.0,
+        479.0,
+        151.0,
+        485.0
+      ]
+    },
+    {
+      "label": "ship",
+      "bbox_xyxy": [
+        116.0,
+        438.0,
+        134.0,
+        449.0
+      ]
+    },
+    {
+      "label": "ship",
+      "bbox_xyxy": [
+        155.0,
+        512.0,
+        169.0,
+        522.0
+      ]
+    },
+    {
+      "label": "ship",
+      "bbox_xyxy": [
+        64.0,
+        325.0,
+        80.0,
+        343.0
+      ]
+    },
+    {
+      "label": "ship",
+      "bbox_xyxy": [
+        94.0,
+        442.0,
+        112.0,
+        452.0
+      ]
+    }
+  ],
+  "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/aitod_grounding/dry_run/visualizations/9a4671500.png.png",
+  "elapsed_seconds": 0.448
+}

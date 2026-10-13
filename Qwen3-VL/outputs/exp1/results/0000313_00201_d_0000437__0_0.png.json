@@ -1,0 +1,28 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/0000313_00201_d_0000437__0_0.png",
+  "status": "skipped",
+  "input_sha256": "8485ba22a88d23f9c80a8c9097d3ede01c94dccfd92f4ea2c34be8c7dd243e39",
+  "width": 800,
+  "height": 800,
+  "skip_reasons": [
+    "生成未正常结束，JSON 不完整或达到生成时限"
+  ],
+  "original_response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/0000313_00201_d_0000437__0_0_attempt1_response.txt",
+  "attempts": [
+    {
+      "do_sample": false,
+      "seed": 0,
+      "max_new_tokens": 4096,
+      "max_time": 90,
+      "generated_tokens": 3099,
+      "generation_limit_reached": false,
+      "ended_with_eos": false,
+      "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/0000313_00201_d_0000437__0_0_attempt1_response.txt",
+      "elapsed_seconds": 90.851,
+      "error": "ValueError: Generation stopped without EOS; output is incomplete"
+    }
+  ],
+  "anomaly_record": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/anomalies/0000313_00201_d_0000437__0_0/record_before_skip.json",
+  "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/0000313_00201_d_0000437__0_0.png.json",
+  "auxiliary_repaired_result": null
+}

@@ -1,0 +1,70 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/c74e13a33.png",
+  "status": "ok",
+  "input_sha256": "758bf5dc0a459b6def67d00539f99ddd608226f9561464e644bb2eb71db8a598",
+  "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/c74e13a33.png.json",
+  "attempts": [
+    {
+      "do_sample": false,
+      "seed": 0,
+      "max_new_tokens": 4096,
+      "max_time": 90,
+      "generated_tokens": 40,
+      "generation_limit_reached": false,
+      "ended_with_eos": true,
+      "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/c74e13a33_attempt1_response.txt",
+      "elapsed_seconds": 2.341
+    }
+  ],
+  "width": 800,
+  "height": 800,
+  "image_grid_thw": [
+    [
+      1,
+      50,
+      50
+    ]
+  ],
+  "pixel_values_shape": [
+    2500,
+    1536
+  ],
+  "processed_image_size_wh": [
+    800,
+    800
+  ],
+  "visual_tokens": 625,
+  "raw_output": "```json\n[\n\t{\"bbox_2d\": [308, 100, 367, 150], \"label\": \"ship\"}\n]\n```",
+  "full_output": "```json\n[\n\t{\"bbox_2d\": [308, 100, 367, 150], \"label\": \"ship\"}\n]\n```<|im_end|>",
+  "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/c74e13a33_response.txt",
+  "generated_tokens": 40,
+  "generation_limit_reached": false,
+  "final_max_new_tokens": 4096,
+  "generation_settings": {
+    "do_sample": false,
+    "seed": 0,
+    "max_time": 90
+  },
+  "detections": [
+    {
+      "label": "ship",
+      "bbox_2d": [
+        308.0,
+        100.0,
+        367.0,
+        150.0
+      ],
+      "bbox_xyxy": [
+        246.4,
+        80.0,
+        293.6,
+        120.0
+      ]
+    }
+  ],
+  "detection_count": 1,
+  "warnings": [],
+  "used_sampling_fallback": false,
+  "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/c74e13a33_vis.png",
+  "elapsed_seconds": 2.963
+}

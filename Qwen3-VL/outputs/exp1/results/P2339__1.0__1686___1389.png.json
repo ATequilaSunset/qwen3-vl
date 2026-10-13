@@ -1,0 +1,74 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/P2339__1.0__1686___1389.png",
+  "status": "skipped",
+  "input_sha256": "cc87504443a91978b118c75cb9a9103ee41c734700a4259d13c4db7509c98e57",
+  "width": 800,
+  "height": 800,
+  "skip_reasons": [
+    "坐标超出规定的 0–1000 范围",
+    "达到生成 token 上限，JSON 未完整输出",
+    "生成未正常结束，JSON 不完整或达到生成时限"
+  ],
+  "original_response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/P2339__1.0__1686___1389_attempt1_response.txt",
+  "attempts": [
+    {
+      "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/P2339__1.0__1686___1389_attempt1_response.txt",
+      "do_sample": false,
+      "max_new_tokens": 4096,
+      "generated_tokens": 4096,
+      "generation_limit_reached": true,
+      "error": "Interrupted original run; greedy response reached its limit and contained out-of-range coordinates"
+    },
+    {
+      "do_sample": true,
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "top_k": 20,
+      "repetition_penalty": 1.0,
+      "seed": 0,
+      "max_new_tokens": 4096,
+      "max_time": 90,
+      "generated_tokens": 2993,
+      "generation_limit_reached": false,
+      "ended_with_eos": false,
+      "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/P2339__1.0__1686___1389_attempt2_response.txt",
+      "elapsed_seconds": 90.813,
+      "error": "ValueError: Generation stopped without EOS; output is incomplete"
+    },
+    {
+      "do_sample": true,
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "top_k": 20,
+      "repetition_penalty": 1.0,
+      "seed": 1,
+      "max_new_tokens": 4096,
+      "max_time": 90,
+      "generated_tokens": 3010,
+      "generation_limit_reached": false,
+      "ended_with_eos": false,
+      "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/P2339__1.0__1686___1389_attempt3_response.txt",
+      "elapsed_seconds": 90.065,
+      "error": "ValueError: Generation stopped without EOS; output is incomplete"
+    },
+    {
+      "prompt": "Detect visually identifiable objects in this aerial image. Categories: airplane, bridge, storage-tank, ship, swimming-pool, vehicle, person, wind-mill. Include tiny objects when their locations can be identified. Only report boxes supported by visible objects; do not extrapolate a sequence of coordinates. Return only a JSON array of {\"bbox_2d\": [x1, y1, x2, y2], \"label\": \"category\"}. Use the exact category names. Coordinates are normalized to 0-1000. Return [] if no objects can be localized.",
+      "prompt_changed": true,
+      "do_sample": false,
+      "seed": 0,
+      "max_new_tokens": 4096,
+      "max_time": 90,
+      "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/P2339__1.0__1686___1389_attempt4_response.txt",
+      "generated_tokens": 1667,
+      "elapsed_seconds": 49.692
+    }
+  ],
+  "anomaly_record": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/anomalies/P2339__1.0__1686___1389/record_before_skip.json",
+  "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/P2339__1.0__1686___1389.png.json",
+  "auxiliary_repaired_result": {
+    "result": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/anomalies/P2339__1.0__1686___1389/record_before_skip.json",
+    "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/anomalies/P2339__1.0__1686___1389/recovered_vis.png",
+    "response": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/P2339__1.0__1686___1389_response.txt",
+    "note": "用户要求跳过异常样本之前已完成的简洁提示词重试结果；单独归档，未纳入正常批次统计。"
+  }
+}

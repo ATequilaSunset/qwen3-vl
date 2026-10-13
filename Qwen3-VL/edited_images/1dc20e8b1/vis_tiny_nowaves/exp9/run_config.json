@@ -1,0 +1,46 @@
+{
+  "model_path": "/data/lz/models/Qwen3-VL-4B-Instruct",
+  "image": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp9/1dc20e8b1_crop_bottomright_500_pasted.png",
+  "selected_images": [
+    "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp9/1dc20e8b1_crop_bottomright_500_pasted.png"
+  ],
+  "output_dir": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp9",
+  "categories": [
+    "airplane",
+    "bridge",
+    "storage-tank",
+    "ship",
+    "swimming-pool",
+    "vehicle",
+    "person",
+    "wind-mill"
+  ],
+  "prompt": "This is a satellite or aerial remote-sensing image. Locate every individual instance belonging to these categories: airplane, bridge, storage-tank, ship, swimming-pool, vehicle, person, wind-mill. Pay attention to tiny objects. Draw a tight box around each individual object; do not combine nearby objects into one box. Use only the exact category names above. Return only a JSON array of {\"bbox_2d\": [x1, y1, x2, y2], \"label\": \"category\"}. Coordinates must be normalized to 0-1000 relative to this image, in top-left to bottom-right order. ",
+  "min_pixels": 65536,
+  "max_pixels": 1048576,
+  "max_new_tokens": 4096,
+  "do_sample": false,
+  "seed": 0,
+  "device": "auto",
+  "actual_device": "cuda:0",
+  "cuda_visible_devices": "2",
+  "dtype": "torch.bfloat16",
+  "attn_implementation": "sdpa",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "5.19.0",
+  "image_processor_class": "Qwen2VLImageProcessor",
+  "effective_processor_size": {
+    "longest_edge": 1048576,
+    "shortest_edge": 65536
+  },
+  "input_sha256": "6e9933e767ffe20245d85685dce45989b9090987c192cf951e758cf1beeea284",
+  "reference_run_config": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp8/run_config.json",
+  "annotations": null,
+  "outputs": {
+    "result": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp9/1dc20e8b1_crop_bottomright_500_pasted.png.json",
+    "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp9/1dc20e8b1_crop_bottomright_500_pasted_vis.png",
+    "response": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp9/1dc20e8b1_crop_bottomright_500_pasted_response.txt",
+    "run_config": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp9/run_config.json",
+    "summary": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp9/summary.json"
+  }
+}

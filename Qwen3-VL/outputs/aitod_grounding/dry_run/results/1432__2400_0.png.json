@@ -1,0 +1,497 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/1432__2400_0.png",
+  "status": "dry_run",
+  "width": 800,
+  "height": 800,
+  "image_id": 7189,
+  "ground_truth": [
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        716.0,
+        739.0,
+        742.0,
+        755.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        714.0,
+        723.0,
+        736.0,
+        739.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        726.0,
+        733.0,
+        752.0,
+        751.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        660.0,
+        693.0,
+        696.0,
+        721.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        568.0,
+        651.0,
+        598.0,
+        669.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        378.0,
+        687.0,
+        396.0,
+        705.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        339.0,
+        660.0,
+        357.0,
+        672.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        250.0,
+        660.0,
+        268.0,
+        676.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        228.0,
+        647.0,
+        246.0,
+        663.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        205.0,
+        628.0,
+        223.0,
+        644.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        273.0,
+        567.0,
+        287.0,
+        581.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        316.0,
+        537.0,
+        330.0,
+        547.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        25.0,
+        222.0,
+        53.0,
+        240.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        67.0,
+        232.0,
+        91.0,
+        250.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        81.0,
+        339.0,
+        105.0,
+        355.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        321.0,
+        430.0,
+        341.0,
+        444.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        -10.0,
+        185.0,
+        12.0,
+        205.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        54.0,
+        326.0,
+        74.0,
+        346.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        60.0,
+        310.0,
+        84.0,
+        326.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        14.0,
+        155.0,
+        24.0,
+        167.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        391.0,
+        709.0,
+        409.0,
+        721.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        293.0,
+        701.0,
+        311.0,
+        719.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        195.0,
+        298.0,
+        211.0,
+        310.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        283.0,
+        343.0,
+        317.0,
+        357.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        767.0,
+        790.0,
+        785.0,
+        806.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        21.0,
+        249.0,
+        37.0,
+        261.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        209.0,
+        278.0,
+        217.0,
+        290.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        784.0,
+        785.0,
+        796.0,
+        799.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        353.0,
+        764.0,
+        373.0,
+        778.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        534.0,
+        745.0,
+        552.0,
+        751.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        485.0,
+        535.0,
+        499.0,
+        549.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        477.0,
+        788.0,
+        493.0,
+        800.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        194.0,
+        273.0,
+        206.0,
+        285.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        470.0,
+        544.0,
+        488.0,
+        558.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        309.0,
+        312.0,
+        333.0,
+        334.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        247.0,
+        370.0,
+        265.0,
+        386.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        442.0,
+        745.0,
+        458.0,
+        759.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        160.0,
+        244.0,
+        178.0,
+        256.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        748.0,
+        759.0,
+        760.0,
+        771.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        409.0,
+        489.0,
+        429.0,
+        507.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        270.0,
+        678.0,
+        292.0,
+        694.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        200.0,
+        333.0,
+        216.0,
+        347.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        191.0,
+        258.0,
+        199.0,
+        272.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        417.0,
+        724.0,
+        431.0,
+        736.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        426.0,
+        734.0,
+        446.0,
+        748.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        286.0,
+        691.0,
+        304.0,
+        703.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        490.0,
+        561.0,
+        506.0,
+        573.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        582.0,
+        615.0,
+        590.0,
+        625.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        367.0,
+        773.0,
+        387.0,
+        789.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        748.0,
+        642.0,
+        768.0,
+        660.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        27.0,
+        169.0,
+        37.0,
+        179.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        339.0,
+        751.0,
+        359.0,
+        763.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        216.0,
+        637.0,
+        232.0,
+        647.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        765.0,
+        773.0,
+        783.0,
+        787.0
+      ]
+    }
+  ],
+  "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/aitod_grounding/dry_run/visualizations/1432__2400_0.png.png",
+  "elapsed_seconds": 0.565
+}

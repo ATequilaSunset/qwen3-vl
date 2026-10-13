@@ -1,0 +1,185 @@
+{
+  "selected_images": 20,
+  "sampling_seed": 861235812,
+  "policy": "异常样本跳过，保留原始回答和异常现象，不再重试。",
+  "skipped_images": 5,
+  "auxiliary_note": "不同提示词的补充重试结果已归档，未纳入正常可视化或预测数量统计。",
+  "samples": [
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/P2339__1.0__1686___1389.png",
+      "name": "P2339__1.0__1686___1389.png",
+      "status": "skipped",
+      "phenomena": [
+        "坐标超出规定的 0–1000 范围",
+        "达到生成 token 上限，JSON 未完整输出",
+        "生成未正常结束，JSON 不完整或达到生成时限"
+      ],
+      "original_response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/P2339__1.0__1686___1389_attempt1_response.txt",
+      "all_attempt_analyses": [
+        {
+          "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/P2339__1.0__1686___1389_attempt1_response.txt",
+          "coordinate_arrays": 121,
+          "out_of_range_arrays": 43,
+          "first_out_of_range": [
+            402,
+            1000,
+            410,
+            1015
+          ],
+          "generation_limit_reached": true,
+          "ended_with_eos": null,
+          "error": "Interrupted original run; greedy response reached its limit and contained out-of-range coordinates"
+        },
+        {
+          "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/P2339__1.0__1686___1389_attempt2_response.txt",
+          "coordinate_arrays": 92,
+          "out_of_range_arrays": 0,
+          "first_out_of_range": null,
+          "generation_limit_reached": false,
+          "ended_with_eos": false,
+          "error": "ValueError: Generation stopped without EOS; output is incomplete"
+        },
+        {
+          "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/P2339__1.0__1686___1389_attempt3_response.txt",
+          "coordinate_arrays": 91,
+          "out_of_range_arrays": 0,
+          "first_out_of_range": null,
+          "generation_limit_reached": false,
+          "ended_with_eos": false,
+          "error": "ValueError: Generation stopped without EOS; output is incomplete"
+        },
+        {
+          "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/P2339__1.0__1686___1389_attempt4_response.txt",
+          "auxiliary_repair_prompt": true,
+          "coordinate_arrays": 52,
+          "out_of_range_arrays": 0
+        }
+      ],
+      "record_before_skip": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/anomalies/P2339__1.0__1686___1389/record_before_skip.json",
+      "auxiliary_repaired_result": {
+        "result": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/anomalies/P2339__1.0__1686___1389/record_before_skip.json",
+        "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/anomalies/P2339__1.0__1686___1389/recovered_vis.png",
+        "response": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/P2339__1.0__1686___1389_response.txt",
+        "note": "用户要求跳过异常样本之前已完成的简洁提示词重试结果；单独归档，未纳入正常批次统计。"
+      }
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/1920__2265_1725.png",
+      "name": "1920__2265_1725.png",
+      "status": "skipped",
+      "phenomena": [
+        "坐标超出规定的 0–1000 范围",
+        "生成未正常结束，JSON 不完整或达到生成时限"
+      ],
+      "original_response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/1920__2265_1725_attempt1_response.txt",
+      "all_attempt_analyses": [
+        {
+          "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/1920__2265_1725_attempt1_response.txt",
+          "coordinate_arrays": 73,
+          "out_of_range_arrays": 1,
+          "first_out_of_range": [
+            778,
+            987,
+            795,
+            1002
+          ],
+          "generation_limit_reached": false,
+          "ended_with_eos": false,
+          "error": "ValueError: Coordinates outside 0..1000: [778, 987, 795, 1002]"
+        },
+        {
+          "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/1920__2265_1725_attempt2_response.txt",
+          "coordinate_arrays": 94,
+          "out_of_range_arrays": 0,
+          "first_out_of_range": null,
+          "generation_limit_reached": false,
+          "ended_with_eos": false,
+          "error": "ValueError: Generation stopped without EOS; output is incomplete"
+        },
+        {
+          "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/1920__2265_1725_attempt3_response.txt",
+          "coordinate_arrays": 93,
+          "out_of_range_arrays": 0,
+          "first_out_of_range": null,
+          "generation_limit_reached": false,
+          "ended_with_eos": false,
+          "error": "ValueError: Generation stopped without EOS; output is incomplete"
+        }
+      ],
+      "record_before_skip": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/anomalies/1920__2265_1725/record_before_skip.json",
+      "auxiliary_repaired_result": null
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/2552__1800_1800.png",
+      "name": "2552__1800_1800.png",
+      "status": "skipped",
+      "phenomena": [
+        "坐标超出规定的 0–1000 范围",
+        "生成未正常结束，JSON 不完整或达到生成时限"
+      ],
+      "original_response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/2552__1800_1800_attempt1_response.txt",
+      "all_attempt_analyses": [
+        {
+          "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/2552__1800_1800_attempt1_response.txt",
+          "coordinate_arrays": 16,
+          "out_of_range_arrays": 1,
+          "first_out_of_range": [
+            817,
+            982,
+            836,
+            1004
+          ],
+          "generation_limit_reached": false,
+          "ended_with_eos": false,
+          "error": "ValueError: Coordinates outside 0..1000: [817, 982, 836, 1004]"
+        }
+      ],
+      "record_before_skip": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/anomalies/2552__1800_1800/record_before_skip.json",
+      "auxiliary_repaired_result": null
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/0000313_00201_d_0000437__0_0.png",
+      "name": "0000313_00201_d_0000437__0_0.png",
+      "status": "skipped",
+      "phenomena": [
+        "生成未正常结束，JSON 不完整或达到生成时限"
+      ],
+      "original_response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/0000313_00201_d_0000437__0_0_attempt1_response.txt",
+      "all_attempt_analyses": [
+        {
+          "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/0000313_00201_d_0000437__0_0_attempt1_response.txt",
+          "coordinate_arrays": 104,
+          "out_of_range_arrays": 0,
+          "first_out_of_range": null,
+          "generation_limit_reached": false,
+          "ended_with_eos": false,
+          "error": "ValueError: Generation stopped without EOS; output is incomplete"
+        }
+      ],
+      "record_before_skip": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/anomalies/0000313_00201_d_0000437__0_0/record_before_skip.json",
+      "auxiliary_repaired_result": null
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/9999984_00000_d_0000152__600_0.png",
+      "name": "9999984_00000_d_0000152__600_0.png",
+      "status": "skipped",
+      "phenomena": [
+        "生成未正常结束，JSON 不完整或达到生成时限"
+      ],
+      "original_response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/9999984_00000_d_0000152__600_0_attempt1_response.txt",
+      "all_attempt_analyses": [
+        {
+          "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/9999984_00000_d_0000152__600_0_attempt1_response.txt",
+          "coordinate_arrays": 96,
+          "out_of_range_arrays": 0,
+          "first_out_of_range": null,
+          "generation_limit_reached": false,
+          "ended_with_eos": false,
+          "error": "ValueError: Generation stopped without EOS; output is incomplete"
+        }
+      ],
+      "record_before_skip": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/anomalies/9999984_00000_d_0000152__600_0/record_before_skip.json",
+      "auxiliary_repaired_result": null
+    }
+  ]
+}

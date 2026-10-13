@@ -1,0 +1,77 @@
+{
+  "source": "/home/wrj/AITOD_Cloud/yolo_dataset_v2/images/test/1dc20e8b1.png",
+  "source_sha256": "a989034164054dfaffad0694c6e7510f408c2c4144fcc2f1237fe6b52cd91165",
+  "source_size_wh": [
+    800,
+    800
+  ],
+  "reference_crop": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/1dc20e8b1_crop_tiny.png",
+  "reference_crop_sha256": "b90864ebd4b364d7a75c1cb77c4716130016de8437e2efe540f5460b3d3921c2",
+  "reference_256": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp4/1dc20e8b1_crop_tiny_256.png",
+  "reference_crop_xyxy_in_source": [
+    470,
+    645,
+    570,
+    745
+  ],
+  "crop_xyxy_in_source": [
+    476,
+    645,
+    576,
+    745
+  ],
+  "crop_size_wh": [
+    100,
+    100
+  ],
+  "crop_window_shift_xy_in_source_px": [
+    6,
+    0
+  ],
+  "target_position_shift_xy_in_crop_px": [
+    -6,
+    0
+  ],
+  "target_position_shift_xy_at_256_px": [
+    -15.36,
+    0
+  ],
+  "requested_target_shift_x_at_256_px": -16,
+  "difference_from_requested_shift_x_px": 0.64,
+  "resize_backend": "torchvision.transforms.v2.functional.resize",
+  "interpolation": "bicubic",
+  "antialias": true,
+  "resize_size_wh": [
+    256,
+    256
+  ],
+  "torch_version": "2.6.0+cu124",
+  "torchvision_version": "0.21.0+cu124",
+  "patch_size_wh": [
+    16,
+    16
+  ],
+  "grid_rows": 16,
+  "grid_columns": 16,
+  "patch_count": 256,
+  "grid_color_rgb": [
+    255,
+    0,
+    0
+  ],
+  "grid_line_width_px": 1,
+  "dash_length_px": 4,
+  "gap_length_px": 4,
+  "outputs": {
+    "crop_100": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp5/1dc20e8b1_crop_tiny.png",
+    "resized_256": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp5/1dc20e8b1_crop_tiny_256.png",
+    "grid_256": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp5/1dc20e8b1_crop_tiny_256_patch16_grid.png",
+    "configuration": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp5/crop_shift_config.json"
+  },
+  "checks": {
+    "reference_crop_matches_source_exactly": true,
+    "reference_resize_matches_exp4_exactly": true,
+    "shifted_crop_overlap_matches_exactly": true,
+    "source_boundary_padding_required": false
+  }
+}

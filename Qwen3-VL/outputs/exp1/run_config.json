@@ -1,0 +1,132 @@
+{
+  "model_path": "/data/lz/models/Qwen3-VL-4B-Instruct",
+  "image_dir": "/data/wrj/AI-TOD/aitod/images/test",
+  "output_dir": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1",
+  "num_images": 20,
+  "sampling_seed": 861235812,
+  "generation_seed": 0,
+  "sample_without_replacement": true,
+  "selected_images": [
+    "/data/wrj/AI-TOD/aitod/images/test/6a4a3af4a.png",
+    "/data/wrj/AI-TOD/aitod/images/test/P1617__1.0__2400___2400.png",
+    "/data/wrj/AI-TOD/aitod/images/test/eb81470a3.png",
+    "/data/wrj/AI-TOD/aitod/images/test/bfc1bfad1.png",
+    "/data/wrj/AI-TOD/aitod/images/test/5262658a8.png",
+    "/data/wrj/AI-TOD/aitod/images/test/P2339__1.0__1686___1389.png",
+    "/data/wrj/AI-TOD/aitod/images/test/1920__2265_1725.png",
+    "/data/wrj/AI-TOD/aitod/images/test/c74e13a33.png",
+    "/data/wrj/AI-TOD/aitod/images/test/d49f4ca2b.png",
+    "/data/wrj/AI-TOD/aitod/images/test/2552__1800_1800.png",
+    "/data/wrj/AI-TOD/aitod/images/test/5541240c3.png",
+    "/data/wrj/AI-TOD/aitod/images/test/1bc71b6ae.png",
+    "/data/wrj/AI-TOD/aitod/images/test/0000313_00201_d_0000437__0_0.png",
+    "/data/wrj/AI-TOD/aitod/images/test/543607ccf.png",
+    "/data/wrj/AI-TOD/aitod/images/test/9999984_00000_d_0000152__600_0.png",
+    "/data/wrj/AI-TOD/aitod/images/test/39a78dd53.png",
+    "/data/wrj/AI-TOD/aitod/images/test/87b9eb218.png",
+    "/data/wrj/AI-TOD/aitod/images/test/a68fb01d7.png",
+    "/data/wrj/AI-TOD/aitod/images/test/3ff2e23f0.png",
+    "/data/wrj/AI-TOD/aitod/images/test/2d8c35e69.png"
+  ],
+  "categories": [
+    "airplane",
+    "bridge",
+    "storage-tank",
+    "ship",
+    "swimming-pool",
+    "vehicle",
+    "person",
+    "wind-mill"
+  ],
+  "prompt": "This is a satellite or aerial remote-sensing image. Locate every individual instance belonging to these categories: airplane, bridge, storage-tank, ship, swimming-pool, vehicle, person, wind-mill. Pay attention to tiny objects. Draw a tight box around each individual object; do not combine nearby objects into one box. Use only the exact category names above. Return only a JSON array of {\"bbox_2d\": [x1, y1, x2, y2], \"label\": \"category\"}. Coordinates must be normalized to 0-1000 relative to this image, in top-left to bottom-right order. ",
+  "min_pixels": 65536,
+  "max_pixels": 1048576,
+  "max_new_tokens": 4096,
+  "truncated_output_retry_limits": [],
+  "do_sample": false,
+  "device": "auto",
+  "cuda_visible_devices": "0",
+  "attn_implementation": "sdpa",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "5.19.0",
+  "reference_run_config": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_800_800/exp1/run_config.json",
+  "annotations": null,
+  "actual_device": "cuda:0",
+  "dtype": "torch.bfloat16",
+  "image_processor_class": "Qwen2VLImageProcessor",
+  "effective_processor_size": {
+    "longest_edge": 1048576,
+    "shortest_edge": 65536
+  },
+  "recovery_policy": "Retain failed responses; retry invalid greedy output using model-native sampling",
+  "fallback_sampling_settings": {
+    "do_sample": true,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "repetition_penalty": 1.0
+  },
+  "fallback_sampling_seeds": [
+    0,
+    1
+  ],
+  "generation_time_limit_seconds": 90,
+  "resume_runs": [
+    {
+      "completed_before_run": 5,
+      "max_images": 4,
+      "budget_seconds": 100.0
+    },
+    {
+      "completed_before_run": 6,
+      "max_images": 5,
+      "budget_seconds": 100.0
+    },
+    {
+      "completed_before_run": 7,
+      "max_images": 5,
+      "budget_seconds": 100.0,
+      "greedy_only": true
+    },
+    {
+      "completed_before_run": 12,
+      "max_images": 5,
+      "budget_seconds": 100.0,
+      "greedy_only": true
+    },
+    {
+      "completed_before_run": 15,
+      "max_images": 5,
+      "budget_seconds": 100.0,
+      "greedy_only": true
+    }
+  ],
+  "final_anomaly_policy": "skip; no further retries after user instruction",
+  "anomalous_sample_names": [
+    "P2339__1.0__1686___1389.png",
+    "1920__2265_1725.png",
+    "2552__1800_1800.png",
+    "0000313_00201_d_0000437__0_0.png",
+    "9999984_00000_d_0000152__600_0.png"
+  ],
+  "normal_sample_names": [
+    "6a4a3af4a.png",
+    "P1617__1.0__2400___2400.png",
+    "eb81470a3.png",
+    "bfc1bfad1.png",
+    "5262658a8.png",
+    "c74e13a33.png",
+    "d49f4ca2b.png",
+    "5541240c3.png",
+    "1bc71b6ae.png",
+    "543607ccf.png",
+    "39a78dd53.png",
+    "87b9eb218.png",
+    "a68fb01d7.png",
+    "3ff2e23f0.png",
+    "2d8c35e69.png"
+  ],
+  "auxiliary_repair_results_excluded_from_batch": true,
+  "anomaly_log": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/anomalies.json",
+  "completed": true
+}

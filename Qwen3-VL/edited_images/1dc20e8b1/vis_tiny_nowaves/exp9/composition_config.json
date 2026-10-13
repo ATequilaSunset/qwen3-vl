@@ -1,0 +1,36 @@
+{
+  "operation": "opaque pixel-for-pixel paste",
+  "foreground": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/1dc20e8b1_crop.png",
+  "foreground_sha256": "fa08a5400c8c8b075e7e3e72ba7ed0e0a1fbeb4258fb55b1d590728f15b13f02",
+  "background": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/1dc20e8b1_crop_bottomright_500.png",
+  "background_sha256": "b9f32eb2c524b0b89eb93db7631876c7c62a1260bfc1274fbf38a41cfe934e9c",
+  "foreground_size_wh": [
+    100,
+    100
+  ],
+  "background_size_wh": [
+    500,
+    500
+  ],
+  "paste_xy": [
+    0,
+    0
+  ],
+  "paste_region_xyxy": [
+    0,
+    0,
+    100,
+    100
+  ],
+  "foreground_resized": false,
+  "output_size_wh": [
+    500,
+    500
+  ],
+  "composite": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp9/1dc20e8b1_crop_bottomright_500_pasted.png",
+  "checks": {
+    "pasted_region_matches_foreground_exactly": true,
+    "outside_paste_region_matches_background_exactly": true
+  },
+  "composite_sha256": "6e9933e767ffe20245d85685dce45989b9090987c192cf951e758cf1beeea284"
+}

@@ -1,0 +1,17 @@
+{
+  "mode": "inference",
+  "selected_images": 1,
+  "successful_images": 1,
+  "failed_images": 0,
+  "evaluated_images": 0,
+  "iou_threshold": 0.5,
+  "metric_note": "Class-aware greedy IoU matching; NOT COCO mAP. Only successful annotated images are evaluated; inspect failures/warnings.",
+  "per_category": {},
+  "images": [
+    {
+      "image": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/1dc20e8b1_crop_tiny.png",
+      "status": "ok",
+      "elapsed_seconds": 3.921
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "mode": "inference",
+  "completed": true,
+  "selected_images": 20,
+  "processed_images": 20,
+  "successful_images": 15,
+  "skipped_images": 5,
+  "pending_images": 0,
+  "evaluated_images": 0,
+  "normal_visualizations": 15,
+  "total_predicted_boxes": 26,
+  "predicted_boxes_per_category": {
+    "airplane": 3,
+    "storage-tank": 4,
+    "ship": 19
+  },
+  "sampling_seed": 861235812,
+  "selected_images_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/selected_images.json",
+  "anomaly_log": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/anomalies.json",
+  "note": "成功表示生成了完整且可解析的模型输出，不代表经 GT 验证的检测准确率。异常样本和辅助重试结果不计入正常预测框统计。",
+  "images": [
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/6a4a3af4a.png",
+      "status": "ok",
+      "detection_count": 2,
+      "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/6a4a3af4a_vis.png",
+      "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/6a4a3af4a.png.json"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/P1617__1.0__2400___2400.png",
+      "status": "ok",
+      "detection_count": 4,
+      "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/P1617__1.0__2400___2400_vis.png",
+      "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/P1617__1.0__2400___2400.png.json"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/eb81470a3.png",
+      "status": "ok",
+      "detection_count": 2,
+      "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/eb81470a3_vis.png",
+      "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/eb81470a3.png.json"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/bfc1bfad1.png",
+      "status": "ok",
+      "detection_count": 2,
+      "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/bfc1bfad1_vis.png",
+      "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/bfc1bfad1.png.json"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/5262658a8.png",
+      "status": "ok",
+      "detection_count": 1,
+      "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/5262658a8_vis.png",
+      "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/5262658a8.png.json"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/P2339__1.0__1686___1389.png",
+      "status": "skipped",
+      "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/P2339__1.0__1686___1389.png.json",
+      "skip_reasons": [
+        "坐标超出规定的 0–1000 范围",
+        "达到生成 token 上限，JSON 未完整输出",
+        "生成未正常结束，JSON 不完整或达到生成时限"
+      ],
+      "original_response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/P2339__1.0__1686___1389_attempt1_response.txt",
+      "auxiliary_repaired_result": {
+        "result": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/anomalies/P2339__1.0__1686___1389/record_before_skip.json",
+        "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/anomalies/P2339__1.0__1686___1389/recovered_vis.png",
+        "response": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/P2339__1.0__1686___1389_response.txt",
+        "note": "用户要求跳过异常样本之前已完成的简洁提示词重试结果；单独归档，未纳入正常批次统计。"
+      }
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/1920__2265_1725.png",
+      "status": "skipped",
+      "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/1920__2265_1725.png.json",
+      "skip_reasons": [
+        "坐标超出规定的 0–1000 范围",
+        "生成未正常结束，JSON 不完整或达到生成时限"
+      ],
+      "original_response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/1920__2265_1725_attempt1_response.txt",
+      "auxiliary_repaired_result": null
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/c74e13a33.png",
+      "status": "ok",
+      "detection_count": 1,
+      "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/c74e13a33_vis.png",
+      "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/c74e13a33.png.json"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/d49f4ca2b.png",
+      "status": "ok",
+      "detection_count": 1,
+      "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/d49f4ca2b_vis.png",
+      "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/d49f4ca2b.png.json"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/2552__1800_1800.png",
+      "status": "skipped",
+      "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/2552__1800_1800.png.json",
+      "skip_reasons": [
+        "坐标超出规定的 0–1000 范围",
+        "生成未正常结束，JSON 不完整或达到生成时限"
+      ],
+      "original_response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/2552__1800_1800_attempt1_response.txt",
+      "auxiliary_repaired_result": null
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/5541240c3.png",
+      "status": "ok",
+      "detection_count": 1,
+      "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/5541240c3_vis.png",
+      "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/5541240c3.png.json"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/1bc71b6ae.png",
+      "status": "ok",
+      "detection_count": 1,
+      "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/1bc71b6ae_vis.png",
+      "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/1bc71b6ae.png.json"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/0000313_00201_d_0000437__0_0.png",
+      "status": "skipped",
+      "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/0000313_00201_d_0000437__0_0.png.json",
+      "skip_reasons": [
+        "生成未正常结束，JSON 不完整或达到生成时限"
+      ],
+      "original_response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/0000313_00201_d_0000437__0_0_attempt1_response.txt",
+      "auxiliary_repaired_result": null
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/543607ccf.png",
+      "status": "ok",
+      "detection_count": 3,
+      "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/543607ccf_vis.png",
+      "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/543607ccf.png.json"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/9999984_00000_d_0000152__600_0.png",
+      "status": "skipped",
+      "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/9999984_00000_d_0000152__600_0.png.json",
+      "skip_reasons": [
+        "生成未正常结束，JSON 不完整或达到生成时限"
+      ],
+      "original_response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/9999984_00000_d_0000152__600_0_attempt1_response.txt",
+      "auxiliary_repaired_result": null
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/39a78dd53.png",
+      "status": "ok",
+      "detection_count": 1,
+      "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/39a78dd53_vis.png",
+      "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/39a78dd53.png.json"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/87b9eb218.png",
+      "status": "ok",
+      "detection_count": 0,
+      "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/87b9eb218_vis.png",
+      "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/87b9eb218.png.json"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/a68fb01d7.png",
+      "status": "ok",
+      "detection_count": 3,
+      "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/a68fb01d7_vis.png",
+      "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/a68fb01d7.png.json"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/3ff2e23f0.png",
+      "status": "ok",
+      "detection_count": 3,
+      "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/3ff2e23f0_vis.png",
+      "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/3ff2e23f0.png.json"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/2d8c35e69.png",
+      "status": "ok",
+      "detection_count": 1,
+      "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/2d8c35e69_vis.png",
+      "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/2d8c35e69.png.json"
+    }
+  ]
+}

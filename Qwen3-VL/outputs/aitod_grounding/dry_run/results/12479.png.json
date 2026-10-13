@@ -1,0 +1,191 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/12479.png",
+  "status": "dry_run",
+  "width": 800,
+  "height": 800,
+  "image_id": 20181,
+  "ground_truth": [
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        111.0,
+        136.0,
+        124.0,
+        143.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        159.0,
+        139.0,
+        168.0,
+        147.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        220.0,
+        143.0,
+        233.0,
+        153.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        459.0,
+        234.0,
+        470.0,
+        248.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        421.0,
+        318.0,
+        435.0,
+        331.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        316.0,
+        355.0,
+        330.0,
+        367.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        233.0,
+        407.0,
+        244.0,
+        416.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        699.0,
+        163.0,
+        708.0,
+        178.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        715.0,
+        171.0,
+        722.0,
+        182.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        715.0,
+        183.0,
+        724.0,
+        197.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        767.0,
+        311.0,
+        785.0,
+        320.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        708.0,
+        253.0,
+        717.0,
+        270.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        682.0,
+        106.0,
+        698.0,
+        114.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        610.0,
+        435.0,
+        617.0,
+        446.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        221.0,
+        685.0,
+        235.0,
+        695.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        686.0,
+        736.0,
+        694.0,
+        748.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        688.0,
+        685.0,
+        698.0,
+        700.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        688.0,
+        575.0,
+        700.0,
+        593.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        708.0,
+        554.0,
+        717.0,
+        565.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        652.0,
+        586.0,
+        665.0,
+        598.0
+      ]
+    }
+  ],
+  "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/aitod_grounding/dry_run/visualizations/12479.png.png",
+  "elapsed_seconds": 0.35
+}

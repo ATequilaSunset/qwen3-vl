@@ -1,0 +1,108 @@
+{
+  "image": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp9/1dc20e8b1_crop_bottomright_500_pasted.png",
+  "width": 500,
+  "height": 500,
+  "status": "ok",
+  "input_sha256": "6e9933e767ffe20245d85685dce45989b9090987c192cf951e758cf1beeea284",
+  "image_grid_thw": [
+    [
+      1,
+      32,
+      32
+    ]
+  ],
+  "pixel_values_shape": [
+    1024,
+    1536
+  ],
+  "processed_image_size_wh": [
+    512,
+    512
+  ],
+  "visual_tokens": 256,
+  "raw_output": "```json\n[\n\t{\"bbox_2d\": [81, 17, 200, 109], \"label\": \"ship\"},\n\t{\"bbox_2d\": [250, 335, 271, 347], \"label\": \"ship\"},\n\t{\"bbox_2d\": [430, 783, 450, 801], \"label\": \"ship\"},\n\t{\"bbox_2d\": [575, 889, 645, 935], \"label\": \"ship\"},\n\t{\"bbox_2d\": [812, 771, 875, 823], \"label\": \"ship\"}\n]\n```",
+  "full_output": "```json\n[\n\t{\"bbox_2d\": [81, 17, 200, 109], \"label\": \"ship\"},\n\t{\"bbox_2d\": [250, 335, 271, 347], \"label\": \"ship\"},\n\t{\"bbox_2d\": [430, 783, 450, 801], \"label\": \"ship\"},\n\t{\"bbox_2d\": [575, 889, 645, 935], \"label\": \"ship\"},\n\t{\"bbox_2d\": [812, 771, 875, 823], \"label\": \"ship\"}\n]\n```<|im_end|>",
+  "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp9/1dc20e8b1_crop_bottomright_500_pasted_response.txt",
+  "generated_tokens": 170,
+  "generation_limit_reached": false,
+  "detections": [
+    {
+      "label": "ship",
+      "bbox_2d": [
+        81.0,
+        17.0,
+        200.0,
+        109.0
+      ],
+      "bbox_xyxy": [
+        40.5,
+        8.5,
+        100.0,
+        54.5
+      ]
+    },
+    {
+      "label": "ship",
+      "bbox_2d": [
+        250.0,
+        335.0,
+        271.0,
+        347.0
+      ],
+      "bbox_xyxy": [
+        125.0,
+        167.5,
+        135.5,
+        173.5
+      ]
+    },
+    {
+      "label": "ship",
+      "bbox_2d": [
+        430.0,
+        783.0,
+        450.0,
+        801.0
+      ],
+      "bbox_xyxy": [
+        215.0,
+        391.5,
+        225.0,
+        400.5
+      ]
+    },
+    {
+      "label": "ship",
+      "bbox_2d": [
+        575.0,
+        889.0,
+        645.0,
+        935.0
+      ],
+      "bbox_xyxy": [
+        287.5,
+        444.5,
+        322.5,
+        467.5
+      ]
+    },
+    {
+      "label": "ship",
+      "bbox_2d": [
+        812.0,
+        771.0,
+        875.0,
+        823.0
+      ],
+      "bbox_xyxy": [
+        406.0,
+        385.5,
+        437.5,
+        411.5
+      ]
+    }
+  ],
+  "warnings": [],
+  "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp9/1dc20e8b1_crop_bottomright_500_pasted_vis.png",
+  "elapsed_seconds": 8.36
+}

@@ -1,0 +1,104 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/P1617__1.0__2400___2400.png",
+  "status": "ok",
+  "input_sha256": "bc16ab1ae49f3f1bca5b48caf0d47b301b3d79170e6dd79635f83abf3df74aea",
+  "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/P1617__1.0__2400___2400.png.json",
+  "attempts": [
+    {
+      "max_new_tokens": 4096,
+      "generated_tokens": 143,
+      "generation_limit_reached": false,
+      "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/P1617__1.0__2400___2400_attempt1_response.txt"
+    }
+  ],
+  "width": 800,
+  "height": 800,
+  "image_grid_thw": [
+    [
+      1,
+      50,
+      50
+    ]
+  ],
+  "pixel_values_shape": [
+    2500,
+    1536
+  ],
+  "processed_image_size_wh": [
+    800,
+    800
+  ],
+  "visual_tokens": 625,
+  "raw_output": "```json\n[\n\t{\"bbox_2d\": [468, 430, 483, 463], \"label\": \"storage-tank\"},\n\t{\"bbox_2d\": [472, 503, 495, 536], \"label\": \"storage-tank\"},\n\t{\"bbox_2d\": [468, 430, 483, 463], \"label\": \"storage-tank\"},\n\t{\"bbox_2d\": [472, 503, 495, 536], \"label\": \"storage-tank\"}\n]\n```",
+  "full_output": "```json\n[\n\t{\"bbox_2d\": [468, 430, 483, 463], \"label\": \"storage-tank\"},\n\t{\"bbox_2d\": [472, 503, 495, 536], \"label\": \"storage-tank\"},\n\t{\"bbox_2d\": [468, 430, 483, 463], \"label\": \"storage-tank\"},\n\t{\"bbox_2d\": [472, 503, 495, 536], \"label\": \"storage-tank\"}\n]\n```<|im_end|>",
+  "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/P1617__1.0__2400___2400_response.txt",
+  "generated_tokens": 143,
+  "generation_limit_reached": false,
+  "final_max_new_tokens": 4096,
+  "detections": [
+    {
+      "label": "storage-tank",
+      "bbox_2d": [
+        468.0,
+        430.0,
+        483.0,
+        463.0
+      ],
+      "bbox_xyxy": [
+        374.4,
+        344.0,
+        386.4,
+        370.4
+      ]
+    },
+    {
+      "label": "storage-tank",
+      "bbox_2d": [
+        472.0,
+        503.0,
+        495.0,
+        536.0
+      ],
+      "bbox_xyxy": [
+        377.6,
+        402.4,
+        396.0,
+        428.8
+      ]
+    },
+    {
+      "label": "storage-tank",
+      "bbox_2d": [
+        468.0,
+        430.0,
+        483.0,
+        463.0
+      ],
+      "bbox_xyxy": [
+        374.4,
+        344.0,
+        386.4,
+        370.4
+      ]
+    },
+    {
+      "label": "storage-tank",
+      "bbox_2d": [
+        472.0,
+        503.0,
+        495.0,
+        536.0
+      ],
+      "bbox_xyxy": [
+        377.6,
+        402.4,
+        396.0,
+        428.8
+      ]
+    }
+  ],
+  "detection_count": 4,
+  "warnings": [],
+  "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/P1617__1.0__2400___2400_vis.png",
+  "elapsed_seconds": 4.491
+}

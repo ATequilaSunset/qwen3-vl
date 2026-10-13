@@ -1,0 +1,139 @@
+{
+  "mode": "inference",
+  "selected_images": 10,
+  "successful_images": 6,
+  "failed_images": 4,
+  "evaluated_images": 6,
+  "iou_threshold": 0.5,
+  "metric_note": "Class-aware greedy IoU matching; NOT COCO mAP. Only successful annotated images are evaluated; inspect failures/warnings.",
+  "per_category": {
+    "airplane": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "bridge": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "storage-tank": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "ship": {
+      "tp": 2,
+      "fp": 3,
+      "fn": 16,
+      "precision": 0.4,
+      "recall": 0.1111111111111111,
+      "f1": 0.17391304347826086
+    },
+    "swimming-pool": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "vehicle": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 19,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "person": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "wind-mill": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "images": [
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/02884baad.png",
+      "status": "ok",
+      "elapsed_seconds": 5.312
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/1193__2060_0.png",
+      "status": "ok",
+      "elapsed_seconds": 0.717
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/12479.png",
+      "status": "error",
+      "elapsed_seconds": 200.777,
+      "error": "ValueError: 模型输出不是完整 JSON: Expecting value: line 125 column 47 (char 7335)"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/1432__2400_0.png",
+      "status": "error",
+      "elapsed_seconds": 201.871,
+      "error": "ValueError: 模型输出不是完整 JSON: Expecting ',' delimiter: line 125 column 26 (char 6932)"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/1913__0_2400.png",
+      "status": "error",
+      "elapsed_seconds": 201.427,
+      "error": "ValueError: 模型输出不是完整 JSON: Expecting ',' delimiter: line 125 column 32 (char 6933)"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/1dc20e8b1.png",
+      "status": "ok",
+      "elapsed_seconds": 2.225
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/2148__0_1200.png",
+      "status": "error",
+      "elapsed_seconds": 202.365,
+      "error": "ValueError: 模型输出不是完整 JSON: Expecting ',' delimiter: line 125 column 31 (char 7445)"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/9a4671500.png",
+      "status": "ok",
+      "elapsed_seconds": 0.7
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/acb805185.png",
+      "status": "ok",
+      "elapsed_seconds": 5.424
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/b0aff03c7.png",
+      "status": "ok",
+      "elapsed_seconds": 0.58
+    }
+  ],
+  "overall": {
+    "tp": 2,
+    "fp": 3,
+    "fn": 35,
+    "precision": 0.4,
+    "recall": 0.05405405405405406,
+    "f1": 0.09523809523809523
+  }
+}

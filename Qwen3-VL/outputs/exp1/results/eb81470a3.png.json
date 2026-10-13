@@ -1,0 +1,74 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/eb81470a3.png",
+  "status": "ok",
+  "input_sha256": "86eebaecf0095dad0aebe294c76ef3a2e6c23d2543a4dcbb99e7276c4e2b72a1",
+  "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/eb81470a3.png.json",
+  "attempts": [
+    {
+      "max_new_tokens": 4096,
+      "generated_tokens": 73,
+      "generation_limit_reached": false,
+      "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/eb81470a3_attempt1_response.txt"
+    }
+  ],
+  "width": 800,
+  "height": 800,
+  "image_grid_thw": [
+    [
+      1,
+      50,
+      50
+    ]
+  ],
+  "pixel_values_shape": [
+    2500,
+    1536
+  ],
+  "processed_image_size_wh": [
+    800,
+    800
+  ],
+  "visual_tokens": 625,
+  "raw_output": "```json\n[\n\t{\"bbox_2d\": [903, 927, 953, 945], \"label\": \"ship\"},\n\t{\"bbox_2d\": [534, 192, 556, 200], \"label\": \"ship\"}\n]\n```",
+  "full_output": "```json\n[\n\t{\"bbox_2d\": [903, 927, 953, 945], \"label\": \"ship\"},\n\t{\"bbox_2d\": [534, 192, 556, 200], \"label\": \"ship\"}\n]\n```<|im_end|>",
+  "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/eb81470a3_response.txt",
+  "generated_tokens": 73,
+  "generation_limit_reached": false,
+  "final_max_new_tokens": 4096,
+  "detections": [
+    {
+      "label": "ship",
+      "bbox_2d": [
+        903.0,
+        927.0,
+        953.0,
+        945.0
+      ],
+      "bbox_xyxy": [
+        722.4,
+        741.6,
+        762.4,
+        756.0
+      ]
+    },
+    {
+      "label": "ship",
+      "bbox_2d": [
+        534.0,
+        192.0,
+        556.0,
+        200.0
+      ],
+      "bbox_xyxy": [
+        427.2,
+        153.6,
+        444.8,
+        160.0
+      ]
+    }
+  ],
+  "detection_count": 2,
+  "warnings": [],
+  "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/eb81470a3_vis.png",
+  "elapsed_seconds": 2.473
+}

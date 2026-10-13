@@ -1,0 +1,134 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/1dc20e8b1.png",
+  "status": "ok",
+  "width": 800,
+  "height": 800,
+  "image_id": 269,
+  "ground_truth": [
+    {
+      "label": "ship",
+      "bbox_xyxy": [
+        517.0,
+        692.0,
+        524.0,
+        698.0
+      ]
+    },
+    {
+      "label": "ship",
+      "bbox_xyxy": [
+        515.0,
+        698.0,
+        522.0,
+        704.0
+      ]
+    },
+    {
+      "label": "ship",
+      "bbox_xyxy": [
+        250.0,
+        288.0,
+        264.0,
+        299.0
+      ]
+    },
+    {
+      "label": "ship",
+      "bbox_xyxy": [
+        427.0,
+        469.0,
+        432.0,
+        474.0
+      ]
+    }
+  ],
+  "raw_output": "[{\"bbox_2d\": [312, 352, 352, 375], \"label\": \"ship\"}]",
+  "generated_tokens": 35,
+  "generation_limit_reached": false,
+  "detections": [
+    {
+      "label": "ship",
+      "bbox_2d": [
+        312.0,
+        352.0,
+        352.0,
+        375.0
+      ],
+      "bbox_xyxy": [
+        249.6,
+        281.6,
+        281.6,
+        300.0
+      ]
+    }
+  ],
+  "warnings": [],
+  "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/aitod_grounding/visualizations/1dc20e8b1.png.png",
+  "metrics": {
+    "airplane": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "bridge": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "storage-tank": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "ship": {
+      "tp": 0,
+      "fp": 1,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "swimming-pool": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "vehicle": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "person": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "wind-mill": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "elapsed_seconds": 2.225
+}

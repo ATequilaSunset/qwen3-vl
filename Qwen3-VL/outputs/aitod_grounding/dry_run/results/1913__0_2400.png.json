@@ -1,0 +1,20 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/1913__0_2400.png",
+  "status": "dry_run",
+  "width": 800,
+  "height": 800,
+  "image_id": 5395,
+  "ground_truth": [
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        347.0,
+        334.0,
+        357.0,
+        348.0
+      ]
+    }
+  ],
+  "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/aitod_grounding/dry_run/visualizations/1913__0_2400.png.png",
+  "elapsed_seconds": 0.612
+}

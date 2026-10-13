@@ -1,0 +1,54 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/87b9eb218.png",
+  "status": "ok",
+  "input_sha256": "d489f667e7561678895ec52e4d5c446c3ec797e31fbecc250af487d0108127e2",
+  "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/87b9eb218.png.json",
+  "attempts": [
+    {
+      "do_sample": false,
+      "seed": 0,
+      "max_new_tokens": 4096,
+      "max_time": 90,
+      "generated_tokens": 2,
+      "generation_limit_reached": false,
+      "ended_with_eos": true,
+      "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/87b9eb218_attempt1_response.txt",
+      "elapsed_seconds": 0.124
+    }
+  ],
+  "width": 800,
+  "height": 800,
+  "image_grid_thw": [
+    [
+      1,
+      50,
+      50
+    ]
+  ],
+  "pixel_values_shape": [
+    2500,
+    1536
+  ],
+  "processed_image_size_wh": [
+    800,
+    800
+  ],
+  "visual_tokens": 625,
+  "raw_output": "[]",
+  "full_output": "[]<|im_end|>",
+  "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/87b9eb218_response.txt",
+  "generated_tokens": 2,
+  "generation_limit_reached": false,
+  "final_max_new_tokens": 4096,
+  "generation_settings": {
+    "do_sample": false,
+    "seed": 0,
+    "max_time": 90
+  },
+  "detections": [],
+  "detection_count": 0,
+  "warnings": [],
+  "used_sampling_fallback": false,
+  "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/87b9eb218_vis.png",
+  "elapsed_seconds": 0.472
+}

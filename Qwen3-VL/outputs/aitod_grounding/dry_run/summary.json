@@ -1,0 +1,62 @@
+{
+  "mode": "dry_run",
+  "selected_images": 10,
+  "successful_images": 10,
+  "failed_images": 0,
+  "evaluated_images": 0,
+  "iou_threshold": 0.5,
+  "metric_note": "Class-aware greedy IoU matching; NOT COCO mAP. Only successful annotated images are evaluated; inspect failures/warnings.",
+  "per_category": {},
+  "images": [
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/02884baad.png",
+      "status": "dry_run",
+      "elapsed_seconds": 0.323
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/1193__2060_0.png",
+      "status": "dry_run",
+      "elapsed_seconds": 0.473
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/12479.png",
+      "status": "dry_run",
+      "elapsed_seconds": 0.35
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/1432__2400_0.png",
+      "status": "dry_run",
+      "elapsed_seconds": 0.565
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/1913__0_2400.png",
+      "status": "dry_run",
+      "elapsed_seconds": 0.612
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/1dc20e8b1.png",
+      "status": "dry_run",
+      "elapsed_seconds": 0.367
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/2148__0_1200.png",
+      "status": "dry_run",
+      "elapsed_seconds": 0.518
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/9a4671500.png",
+      "status": "dry_run",
+      "elapsed_seconds": 0.448
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/acb805185.png",
+      "status": "dry_run",
+      "elapsed_seconds": 0.339
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/b0aff03c7.png",
+      "status": "dry_run",
+      "elapsed_seconds": 0.317
+    }
+  ]
+}

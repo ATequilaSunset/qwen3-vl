@@ -1,0 +1,876 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/P2339__1.0__1686___1389.png",
+  "status": "ok",
+  "input_sha256": "cc87504443a91978b118c75cb9a9103ee41c734700a4259d13c4db7509c98e57",
+  "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/anomalies/P2339__1.0__1686___1389/record_before_skip.json",
+  "attempts": [
+    {
+      "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/P2339__1.0__1686___1389_attempt1_response.txt",
+      "do_sample": false,
+      "max_new_tokens": 4096,
+      "generated_tokens": 4096,
+      "generation_limit_reached": true,
+      "error": "Interrupted original run; greedy response reached its limit and contained out-of-range coordinates"
+    },
+    {
+      "do_sample": true,
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "top_k": 20,
+      "repetition_penalty": 1.0,
+      "seed": 0,
+      "max_new_tokens": 4096,
+      "max_time": 90,
+      "generated_tokens": 2993,
+      "generation_limit_reached": false,
+      "ended_with_eos": false,
+      "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/P2339__1.0__1686___1389_attempt2_response.txt",
+      "elapsed_seconds": 90.813,
+      "error": "ValueError: Generation stopped without EOS; output is incomplete"
+    },
+    {
+      "do_sample": true,
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "top_k": 20,
+      "repetition_penalty": 1.0,
+      "seed": 1,
+      "max_new_tokens": 4096,
+      "max_time": 90,
+      "generated_tokens": 3010,
+      "generation_limit_reached": false,
+      "ended_with_eos": false,
+      "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/P2339__1.0__1686___1389_attempt3_response.txt",
+      "elapsed_seconds": 90.065,
+      "error": "ValueError: Generation stopped without EOS; output is incomplete"
+    },
+    {
+      "prompt": "Detect visually identifiable objects in this aerial image. Categories: airplane, bridge, storage-tank, ship, swimming-pool, vehicle, person, wind-mill. Include tiny objects when their locations can be identified. Only report boxes supported by visible objects; do not extrapolate a sequence of coordinates. Return only a JSON array of {\"bbox_2d\": [x1, y1, x2, y2], \"label\": \"category\"}. Use the exact category names. Coordinates are normalized to 0-1000. Return [] if no objects can be localized.",
+      "prompt_changed": true,
+      "do_sample": false,
+      "seed": 0,
+      "max_new_tokens": 4096,
+      "max_time": 90,
+      "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/P2339__1.0__1686___1389_attempt4_response.txt",
+      "generated_tokens": 1667,
+      "elapsed_seconds": 49.692
+    }
+  ],
+  "width": 800,
+  "height": 800,
+  "image_grid_thw": [
+    [
+      1,
+      50,
+      50
+    ]
+  ],
+  "pixel_values_shape": [
+    2500,
+    1536
+  ],
+  "processed_image_size_wh": [
+    800,
+    800
+  ],
+  "visual_tokens": 625,
+  "elapsed_seconds": 230.86100000000002,
+  "raw_output": "[{\"bbox_2d\": [400, 217, 410, 233], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 233, 410, 248], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 248, 410, 263], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 263, 410, 278], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 278, 410, 293], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 293, 410, 308], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 308, 410, 323], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 323, 410, 338], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 338, 410, 353], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 353, 410, 368], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 368, 410, 383], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 383, 410, 398], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 398, 410, 413], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 413, 410, 428], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 428, 410, 443], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 443, 410, 458], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 458, 410, 473], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 473, 410, 488], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 488, 410, 503], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 503, 410, 518], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 518, 410, 533], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 533, 410, 548], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 548, 410, 563], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 563, 410, 578], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 578, 410, 593], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 593, 410, 608], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 608, 410, 623], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 623, 410, 638], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 638, 410, 653], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 653, 410, 668], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 668, 410, 683], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 683, 410, 698], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 698, 410, 713], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 713, 410, 728], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 728, 410, 743], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 743, 410, 758], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 758, 410, 773], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 773, 410, 788], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 788, 410, 803], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 803, 410, 818], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 818, 410, 833], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 833, 410, 848], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 848, 410, 863], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 863, 410, 878], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 878, 410, 893], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 893, 410, 908], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 908, 410, 923], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 923, 410, 938], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 938, 410, 953], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 953, 410, 968], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 968, 410, 983], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 983, 410, 998], \"label\": \"vehicle\"}]",
+  "full_output": "[{\"bbox_2d\": [400, 217, 410, 233], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 233, 410, 248], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 248, 410, 263], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 263, 410, 278], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 278, 410, 293], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 293, 410, 308], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 308, 410, 323], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 323, 410, 338], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 338, 410, 353], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 353, 410, 368], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 368, 410, 383], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 383, 410, 398], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 398, 410, 413], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 413, 410, 428], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 428, 410, 443], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 443, 410, 458], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 458, 410, 473], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 473, 410, 488], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 488, 410, 503], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 503, 410, 518], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 518, 410, 533], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 533, 410, 548], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 548, 410, 563], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 563, 410, 578], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 578, 410, 593], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 593, 410, 608], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 608, 410, 623], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 623, 410, 638], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 638, 410, 653], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 653, 410, 668], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 668, 410, 683], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 683, 410, 698], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 698, 410, 713], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 713, 410, 728], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 728, 410, 743], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 743, 410, 758], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 758, 410, 773], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 773, 410, 788], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 788, 410, 803], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 803, 410, 818], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 818, 410, 833], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 833, 410, 848], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 848, 410, 863], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 863, 410, 878], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 878, 410, 893], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 893, 410, 908], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 908, 410, 923], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 923, 410, 938], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 938, 410, 953], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 953, 410, 968], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 968, 410, 983], \"label\": \"vehicle\"}, {\"bbox_2d\": [400, 983, 410, 998], \"label\": \"vehicle\"}]<|im_end|>",
+  "detections": [
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        217.0,
+        410.0,
+        233.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        173.6,
+        328.0,
+        186.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        233.0,
+        410.0,
+        248.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        186.4,
+        328.0,
+        198.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        248.0,
+        410.0,
+        263.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        198.4,
+        328.0,
+        210.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        263.0,
+        410.0,
+        278.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        210.4,
+        328.0,
+        222.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        278.0,
+        410.0,
+        293.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        222.4,
+        328.0,
+        234.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        293.0,
+        410.0,
+        308.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        234.4,
+        328.0,
+        246.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        308.0,
+        410.0,
+        323.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        246.4,
+        328.0,
+        258.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        323.0,
+        410.0,
+        338.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        258.4,
+        328.0,
+        270.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        338.0,
+        410.0,
+        353.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        270.4,
+        328.0,
+        282.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        353.0,
+        410.0,
+        368.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        282.4,
+        328.0,
+        294.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        368.0,
+        410.0,
+        383.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        294.4,
+        328.0,
+        306.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        383.0,
+        410.0,
+        398.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        306.4,
+        328.0,
+        318.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        398.0,
+        410.0,
+        413.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        318.4,
+        328.0,
+        330.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        413.0,
+        410.0,
+        428.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        330.4,
+        328.0,
+        342.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        428.0,
+        410.0,
+        443.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        342.4,
+        328.0,
+        354.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        443.0,
+        410.0,
+        458.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        354.4,
+        328.0,
+        366.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        458.0,
+        410.0,
+        473.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        366.4,
+        328.0,
+        378.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        473.0,
+        410.0,
+        488.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        378.4,
+        328.0,
+        390.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        488.0,
+        410.0,
+        503.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        390.4,
+        328.0,
+        402.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        503.0,
+        410.0,
+        518.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        402.4,
+        328.0,
+        414.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        518.0,
+        410.0,
+        533.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        414.4,
+        328.0,
+        426.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        533.0,
+        410.0,
+        548.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        426.4,
+        328.0,
+        438.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        548.0,
+        410.0,
+        563.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        438.4,
+        328.0,
+        450.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        563.0,
+        410.0,
+        578.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        450.4,
+        328.0,
+        462.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        578.0,
+        410.0,
+        593.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        462.4,
+        328.0,
+        474.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        593.0,
+        410.0,
+        608.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        474.4,
+        328.0,
+        486.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        608.0,
+        410.0,
+        623.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        486.4,
+        328.0,
+        498.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        623.0,
+        410.0,
+        638.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        498.4,
+        328.0,
+        510.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        638.0,
+        410.0,
+        653.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        510.4,
+        328.0,
+        522.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        653.0,
+        410.0,
+        668.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        522.4,
+        328.0,
+        534.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        668.0,
+        410.0,
+        683.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        534.4,
+        328.0,
+        546.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        683.0,
+        410.0,
+        698.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        546.4,
+        328.0,
+        558.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        698.0,
+        410.0,
+        713.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        558.4,
+        328.0,
+        570.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        713.0,
+        410.0,
+        728.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        570.4,
+        328.0,
+        582.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        728.0,
+        410.0,
+        743.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        582.4,
+        328.0,
+        594.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        743.0,
+        410.0,
+        758.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        594.4,
+        328.0,
+        606.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        758.0,
+        410.0,
+        773.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        606.4,
+        328.0,
+        618.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        773.0,
+        410.0,
+        788.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        618.4,
+        328.0,
+        630.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        788.0,
+        410.0,
+        803.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        630.4,
+        328.0,
+        642.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        803.0,
+        410.0,
+        818.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        642.4,
+        328.0,
+        654.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        818.0,
+        410.0,
+        833.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        654.4,
+        328.0,
+        666.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        833.0,
+        410.0,
+        848.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        666.4,
+        328.0,
+        678.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        848.0,
+        410.0,
+        863.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        678.4,
+        328.0,
+        690.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        863.0,
+        410.0,
+        878.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        690.4,
+        328.0,
+        702.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        878.0,
+        410.0,
+        893.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        702.4,
+        328.0,
+        714.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        893.0,
+        410.0,
+        908.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        714.4,
+        328.0,
+        726.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        908.0,
+        410.0,
+        923.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        726.4,
+        328.0,
+        738.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        923.0,
+        410.0,
+        938.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        738.4,
+        328.0,
+        750.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        938.0,
+        410.0,
+        953.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        750.4,
+        328.0,
+        762.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        953.0,
+        410.0,
+        968.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        762.4,
+        328.0,
+        774.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        968.0,
+        410.0,
+        983.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        774.4,
+        328.0,
+        786.4
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        400.0,
+        983.0,
+        410.0,
+        998.0
+      ],
+      "bbox_xyxy": [
+        320.0,
+        786.4,
+        328.0,
+        798.4
+      ]
+    }
+  ],
+  "detection_count": 52,
+  "warnings": [],
+  "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/P2339__1.0__1686___1389_response.txt",
+  "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/anomalies/P2339__1.0__1686___1389/recovered_vis.png",
+  "generation_limit_reached": false,
+  "generated_tokens": 1667,
+  "final_max_new_tokens": 4096,
+  "prompt": "Detect visually identifiable objects in this aerial image. Categories: airplane, bridge, storage-tank, ship, swimming-pool, vehicle, person, wind-mill. Include tiny objects when their locations can be identified. Only report boxes supported by visible objects; do not extrapolate a sequence of coordinates. Return only a JSON array of {\"bbox_2d\": [x1, y1, x2, y2], \"label\": \"category\"}. Use the exact category names. Coordinates are normalized to 0-1000. Return [] if no objects can be localized.",
+  "used_repair_prompt": true,
+  "generation_settings": {
+    "do_sample": false,
+    "seed": 0,
+    "max_time": 90
+  }
+}

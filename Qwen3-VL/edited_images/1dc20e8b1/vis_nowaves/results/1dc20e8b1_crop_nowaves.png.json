@@ -1,0 +1,29 @@
+{
+  "image": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/1dc20e8b1_crop_nowaves.png",
+  "status": "ok",
+  "width": 100,
+  "height": 100,
+  "raw_output": "```json\n[\n\t{\"bbox_2d\": [444, 394, 556, 488], \"label\": \"vehicle\"}\n]\n```",
+  "generated_tokens": 40,
+  "generation_limit_reached": false,
+  "detections": [
+    {
+      "label": "vehicle",
+      "bbox_2d": [
+        444.0,
+        394.0,
+        556.0,
+        488.0
+      ],
+      "bbox_xyxy": [
+        44.4,
+        39.4,
+        55.6,
+        48.8
+      ]
+    }
+  ],
+  "warnings": [],
+  "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis/1dc20e8b1_crop_nowaves_vis.png",
+  "elapsed_seconds": 2.137
+}

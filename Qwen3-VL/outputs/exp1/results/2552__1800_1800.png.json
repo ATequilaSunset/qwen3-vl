@@ -1,0 +1,29 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/2552__1800_1800.png",
+  "status": "skipped",
+  "input_sha256": "f44fa5e0afc2ddd95da430f44b16f86b014e385bc4bc23c967675cb39468bea9",
+  "width": 800,
+  "height": 800,
+  "skip_reasons": [
+    "坐标超出规定的 0–1000 范围",
+    "生成未正常结束，JSON 不完整或达到生成时限"
+  ],
+  "original_response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/2552__1800_1800_attempt1_response.txt",
+  "attempts": [
+    {
+      "do_sample": false,
+      "seed": 0,
+      "max_new_tokens": 4096,
+      "max_time": 90,
+      "generated_tokens": 544,
+      "generation_limit_reached": false,
+      "ended_with_eos": false,
+      "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/2552__1800_1800_attempt1_response.txt",
+      "elapsed_seconds": 16.226,
+      "error": "ValueError: Coordinates outside 0..1000: [817, 982, 836, 1004]"
+    }
+  ],
+  "anomaly_record": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/anomalies/2552__1800_1800/record_before_skip.json",
+  "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/2552__1800_1800.png.json",
+  "auxiliary_repaired_result": null
+}

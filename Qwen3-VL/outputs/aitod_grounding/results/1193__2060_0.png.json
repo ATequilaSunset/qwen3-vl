@@ -1,0 +1,253 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/1193__2060_0.png",
+  "status": "ok",
+  "width": 800,
+  "height": 800,
+  "image_id": 7681,
+  "ground_truth": [
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        661.0,
+        215.0,
+        665.0,
+        227.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        641.0,
+        112.0,
+        645.0,
+        122.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        235.0,
+        125.0,
+        247.0,
+        137.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        234.0,
+        540.0,
+        246.0,
+        560.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        114.0,
+        751.0,
+        130.0,
+        759.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        212.0,
+        152.0,
+        220.0,
+        164.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        364.0,
+        223.0,
+        378.0,
+        237.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        362.0,
+        253.0,
+        376.0,
+        265.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        247.0,
+        123.0,
+        261.0,
+        137.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        345.0,
+        248.0,
+        359.0,
+        262.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        229.0,
+        140.0,
+        239.0,
+        152.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        310.0,
+        313.0,
+        324.0,
+        325.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        231.0,
+        152.0,
+        241.0,
+        160.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        197.0,
+        94.0,
+        207.0,
+        112.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        266.0,
+        698.0,
+        280.0,
+        706.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        241.0,
+        124.0,
+        253.0,
+        136.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        354.0,
+        263.0,
+        368.0,
+        275.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        708.0,
+        505.0,
+        722.0,
+        521.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        242.0,
+        372.0,
+        258.0,
+        386.0
+      ]
+    }
+  ],
+  "raw_output": "[]",
+  "generated_tokens": 2,
+  "generation_limit_reached": false,
+  "detections": [],
+  "warnings": [],
+  "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/aitod_grounding/visualizations/1193__2060_0.png.png",
+  "metrics": {
+    "airplane": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "bridge": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "storage-tank": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "ship": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "swimming-pool": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "vehicle": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 19,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "person": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "wind-mill": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "elapsed_seconds": 0.717
+}

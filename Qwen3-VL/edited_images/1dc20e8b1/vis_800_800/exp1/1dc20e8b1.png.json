@@ -1,0 +1,93 @@
+{
+  "image": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/1dc20e8b1.png",
+  "width": 800,
+  "height": 800,
+  "status": "ok",
+  "input_sha256": "a989034164054dfaffad0694c6e7510f408c2c4144fcc2f1237fe6b52cd91165",
+  "image_grid_thw": [
+    [
+      1,
+      50,
+      50
+    ]
+  ],
+  "pixel_values_shape": [
+    2500,
+    1536
+  ],
+  "processed_image_size_wh": [
+    800,
+    800
+  ],
+  "visual_tokens": 625,
+  "raw_output": "```json\n[\n\t{\"bbox_2d\": [312, 352, 352, 375], \"label\": \"ship\"},\n\t{\"bbox_2d\": [532, 582, 547, 592], \"label\": \"ship\"},\n\t{\"bbox_2d\": [644, 865, 656, 879], \"label\": \"ship\"},\n\t{\"bbox_2d\": [762, 84, 772, 94], \"label\": \"ship\"}\n]\n```",
+  "full_output": "```json\n[\n\t{\"bbox_2d\": [312, 352, 352, 375], \"label\": \"ship\"},\n\t{\"bbox_2d\": [532, 582, 547, 592], \"label\": \"ship\"},\n\t{\"bbox_2d\": [644, 865, 656, 879], \"label\": \"ship\"},\n\t{\"bbox_2d\": [762, 84, 772, 94], \"label\": \"ship\"}\n]\n```<|im_end|>",
+  "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_800_800/exp1/1dc20e8b1_response.txt",
+  "generated_tokens": 137,
+  "generation_limit_reached": false,
+  "detections": [
+    {
+      "label": "ship",
+      "bbox_2d": [
+        312.0,
+        352.0,
+        352.0,
+        375.0
+      ],
+      "bbox_xyxy": [
+        249.6,
+        281.6,
+        281.6,
+        300.0
+      ]
+    },
+    {
+      "label": "ship",
+      "bbox_2d": [
+        532.0,
+        582.0,
+        547.0,
+        592.0
+      ],
+      "bbox_xyxy": [
+        425.6,
+        465.6,
+        437.6,
+        473.6
+      ]
+    },
+    {
+      "label": "ship",
+      "bbox_2d": [
+        644.0,
+        865.0,
+        656.0,
+        879.0
+      ],
+      "bbox_xyxy": [
+        515.2,
+        692.0,
+        524.8,
+        703.2
+      ]
+    },
+    {
+      "label": "ship",
+      "bbox_2d": [
+        762.0,
+        84.0,
+        772.0,
+        94.0
+      ],
+      "bbox_xyxy": [
+        609.6,
+        67.2,
+        617.6,
+        75.2
+      ]
+    }
+  ],
+  "warnings": [],
+  "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_800_800/exp1/1dc20e8b1_vis.png",
+  "elapsed_seconds": 5.685
+}

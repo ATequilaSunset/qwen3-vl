@@ -1,0 +1,116 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/02884baad.png",
+  "status": "ok",
+  "width": 800,
+  "height": 800,
+  "image_id": 14521,
+  "ground_truth": [
+    {
+      "label": "ship",
+      "bbox_xyxy": [
+        315.0,
+        230.0,
+        332.0,
+        245.0
+      ]
+    },
+    {
+      "label": "ship",
+      "bbox_xyxy": [
+        634.0,
+        178.0,
+        644.0,
+        190.0
+      ]
+    }
+  ],
+  "raw_output": "[{\"bbox_2d\": [390, 282, 438, 320], \"label\": \"ship\"}]",
+  "generated_tokens": 35,
+  "generation_limit_reached": false,
+  "detections": [
+    {
+      "label": "ship",
+      "bbox_2d": [
+        390.0,
+        282.0,
+        438.0,
+        320.0
+      ],
+      "bbox_xyxy": [
+        312.0,
+        225.6,
+        350.4,
+        256.0
+      ]
+    }
+  ],
+  "warnings": [],
+  "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/aitod_grounding/visualizations/02884baad.png.png",
+  "metrics": {
+    "airplane": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "bridge": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "storage-tank": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "ship": {
+      "tp": 0,
+      "fp": 1,
+      "fn": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "swimming-pool": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "vehicle": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "person": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "wind-mill": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "elapsed_seconds": 5.312
+}

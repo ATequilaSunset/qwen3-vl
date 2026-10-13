@@ -1,0 +1,100 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/a68fb01d7.png",
+  "status": "ok",
+  "input_sha256": "bb4b83a7af88bf187851ea57337fc7dd121bff5c74346955c265c2ec12fee7f7",
+  "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/a68fb01d7.png.json",
+  "attempts": [
+    {
+      "do_sample": false,
+      "seed": 0,
+      "max_new_tokens": 4096,
+      "max_time": 90,
+      "generated_tokens": 101,
+      "generation_limit_reached": false,
+      "ended_with_eos": true,
+      "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/a68fb01d7_attempt1_response.txt",
+      "elapsed_seconds": 3.052
+    }
+  ],
+  "width": 800,
+  "height": 800,
+  "image_grid_thw": [
+    [
+      1,
+      50,
+      50
+    ]
+  ],
+  "pixel_values_shape": [
+    2500,
+    1536
+  ],
+  "processed_image_size_wh": [
+    800,
+    800
+  ],
+  "visual_tokens": 625,
+  "raw_output": "```json\n[\n\t{\"bbox_2d\": [167, 887, 177, 904], \"label\": \"ship\"},\n\t{\"bbox_2d\": [0, 222, 28, 247], \"label\": \"ship\"},\n\t{\"bbox_2d\": [54, 100, 80, 134], \"label\": \"ship\"}\n]\n```",
+  "full_output": "```json\n[\n\t{\"bbox_2d\": [167, 887, 177, 904], \"label\": \"ship\"},\n\t{\"bbox_2d\": [0, 222, 28, 247], \"label\": \"ship\"},\n\t{\"bbox_2d\": [54, 100, 80, 134], \"label\": \"ship\"}\n]\n```<|im_end|>",
+  "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/a68fb01d7_response.txt",
+  "generated_tokens": 101,
+  "generation_limit_reached": false,
+  "final_max_new_tokens": 4096,
+  "generation_settings": {
+    "do_sample": false,
+    "seed": 0,
+    "max_time": 90
+  },
+  "detections": [
+    {
+      "label": "ship",
+      "bbox_2d": [
+        167.0,
+        887.0,
+        177.0,
+        904.0
+      ],
+      "bbox_xyxy": [
+        133.6,
+        709.6,
+        141.6,
+        723.2
+      ]
+    },
+    {
+      "label": "ship",
+      "bbox_2d": [
+        0.0,
+        222.0,
+        28.0,
+        247.0
+      ],
+      "bbox_xyxy": [
+        0.0,
+        177.6,
+        22.4,
+        197.6
+      ]
+    },
+    {
+      "label": "ship",
+      "bbox_2d": [
+        54.0,
+        100.0,
+        80.0,
+        134.0
+      ],
+      "bbox_xyxy": [
+        43.2,
+        80.0,
+        64.0,
+        107.2
+      ]
+    }
+  ],
+  "detection_count": 3,
+  "warnings": [],
+  "used_sampling_fallback": false,
+  "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/a68fb01d7_vis.png",
+  "elapsed_seconds": 3.363
+}

@@ -1,0 +1,536 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/2148__0_1200.png",
+  "status": "error",
+  "width": 800,
+  "height": 800,
+  "image_id": 19061,
+  "ground_truth": [
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        5.0,
+        -2.0,
+        19.0,
+        6.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        -4.0,
+        10.0,
+        10.0,
+        18.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        265.0,
+        794.0,
+        277.0,
+        804.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        192.0,
+        486.0,
+        200.0,
+        492.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        195.0,
+        484.0,
+        203.0,
+        490.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        198.0,
+        481.0,
+        208.0,
+        487.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        205.0,
+        476.0,
+        213.0,
+        484.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        209.0,
+        472.0,
+        219.0,
+        482.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        174.0,
+        458.0,
+        186.0,
+        466.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        171.0,
+        453.0,
+        183.0,
+        461.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        167.0,
+        446.0,
+        177.0,
+        456.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        163.0,
+        439.0,
+        173.0,
+        449.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        159.0,
+        436.0,
+        169.0,
+        446.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        155.0,
+        429.0,
+        165.0,
+        439.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        55.0,
+        564.0,
+        67.0,
+        576.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        165.0,
+        486.0,
+        175.0,
+        494.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        175.0,
+        482.0,
+        183.0,
+        488.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        160.0,
+        476.0,
+        168.0,
+        482.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        168.0,
+        475.0,
+        176.0,
+        481.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        168.0,
+        467.0,
+        176.0,
+        473.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        171.0,
+        477.0,
+        177.0,
+        483.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        181.0,
+        476.0,
+        189.0,
+        482.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        243.0,
+        310.0,
+        253.0,
+        318.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        460.0,
+        148.0,
+        476.0,
+        160.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        727.0,
+        575.0,
+        739.0,
+        583.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        736.0,
+        548.0,
+        754.0,
+        560.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        750.0,
+        569.0,
+        764.0,
+        585.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        726.0,
+        584.0,
+        742.0,
+        598.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        709.0,
+        596.0,
+        725.0,
+        616.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        720.0,
+        598.0,
+        732.0,
+        608.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        695.0,
+        620.0,
+        707.0,
+        632.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        685.0,
+        626.0,
+        697.0,
+        640.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        718.0,
+        551.0,
+        728.0,
+        563.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        634.0,
+        606.0,
+        646.0,
+        618.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        231.0,
+        377.0,
+        285.0,
+        421.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        137.0,
+        387.0,
+        153.0,
+        401.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        151.0,
+        265.0,
+        175.0,
+        289.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        419.0,
+        4.0,
+        433.0,
+        14.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        414.0,
+        -2.0,
+        426.0,
+        6.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        203.0,
+        478.0,
+        209.0,
+        484.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        163.0,
+        472.0,
+        169.0,
+        476.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        742.0,
+        719.0,
+        754.0,
+        731.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        702.0,
+        674.0,
+        714.0,
+        688.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        685.0,
+        656.0,
+        697.0,
+        668.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        19.0,
+        534.0,
+        31.0,
+        544.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        103.0,
+        417.0,
+        115.0,
+        425.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        90.0,
+        405.0,
+        102.0,
+        413.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        716.0,
+        688.0,
+        728.0,
+        700.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        111.0,
+        403.0,
+        121.0,
+        409.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        507.0,
+        43.0,
+        517.0,
+        55.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        121.0,
+        405.0,
+        131.0,
+        413.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        753.0,
+        732.0,
+        765.0,
+        744.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        791.0,
+        778.0,
+        805.0,
+        788.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        11.0,
+        529.0,
+        23.0,
+        537.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        15.0,
+        463.0,
+        27.0,
+        475.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        56.0,
+        443.0,
+        72.0,
+        451.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        592.0,
+        51.0,
+        606.0,
+        67.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        546.0,
+        80.0,
+        560.0,
+        100.0
+      ]
+    }
+  ],
+  "raw_output": "```json\n[\n    {\"bbox_2d\": [117, 505, 130, 518], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [142, 500, 160, 515], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [172, 485, 190, 500], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [337, 470, 357, 488], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [302, 385, 320, 400], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [740, 68, 756, 82], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [628, 54, 643, 70], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [578, 185, 595, 200], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [788, 755, 808, 775], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [855, 817, 875, 838], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 855, 908, 875], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [922, 898, 940, 918], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 740, 910, 758], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [855, 775, 875, 795], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [855, 755, 875, 775], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 715, 910, 735], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 695, 910, 715], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 675, 910, 695], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 655, 910, 675], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 635, 910, 655], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 615, 910, 635], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 595, 910, 615], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 575, 910, 595], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 555, 910, 575], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 535, 910, 555], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 515, 910, 535], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 495, 910, 515], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 475, 910, 495], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 455, 910, 475], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 435, 910, 455], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 415, 910, 435], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 395, 910, 415], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 375, 910, 395], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 355, 910, 375], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 335, 910, 355], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 315, 910, 335], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 295, 910, 315], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 275, 910, 295], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 255, 910, 275], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 235, 910, 255], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 215, 910, 235], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 195, 910, 215], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 175, 910, 195], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 155, 910, 175], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 135, 910, 155], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 115, 910, 135], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 95, 910, 115], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 75, 910, 95], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 55, 910, 75], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 35, 910, 55], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, 15, 910, 35], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -5, 910, 15], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -15, 910, -5], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -35, 910, -15], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -55, 910, -35], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -75, 910, -55], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -95, 910, -75], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -115, 910, -95], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -135, 910, -115], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -155, 910, -135], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -175, 910, -155], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -195, 910, -175], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -215, 910, -195], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -235, 910, -215], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -255, 910, -235], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -275, 910, -255], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -295, 910, -275], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -315, 910, -295], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -335, 910, -315], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -355, 910, -335], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -375, 910, -355], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -395, 910, -375], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -415, 910, -395], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -435, 910, -415], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -455, 910, -435], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -475, 910, -455], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -495, 910, -475], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -515, 910, -495], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -535, 910, -515], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -555, 910, -535], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -575, 910, -555], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -595, 910, -575], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -615, 910, -595], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -635, 910, -615], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -655, 910, -635], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -675, 910, -655], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -695, 910, -675], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -715, 910, -695], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -735, 910, -715], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -755, 910, -735], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -775, 910, -755], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -795, 910, -775], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -815, 910, -795], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -835, 910, -815], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -855, 910, -835], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -875, 910, -855], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -895, 910, -875], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -915, 910, -895], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -935, 910, -915], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -955, 910, -935], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -975, 910, -955], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -995, 910, -975], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1015, 910, -995], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1035, 910, -1015], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1055, 910, -1035], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1075, 910, -1055], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1095, 910, -1075], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1115, 910, -1095], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1135, 910, -1115], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1155, 910, -1135], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1175, 910, -1155], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1195, 910, -1175], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1215, 910, -1195], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1235, 910, -1215], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1255, 910, -1235], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1275, 910, -1255], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1295, 910, -1275], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1315, 910, -1295], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1335, 910, -1315], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1355, 910, -1335], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1375, 910, -1355], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1395, 910, -1375], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1415, 910, -1395], \"label\": \"vehicle\"},\n    {\"bbox_2d\": [892, -1435, 9",
+  "generated_tokens": 4096,
+  "generation_limit_reached": true,
+  "error": "ValueError: 模型输出不是完整 JSON: Expecting ',' delimiter: line 125 column 31 (char 7445)",
+  "elapsed_seconds": 202.365
+}

@@ -1,0 +1,40 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/9999984_00000_d_0000152__600_0.png",
+  "status": "error",
+  "input_sha256": "24263442c5275d429c7cfcd3564aa282b5ef576f7e97d628deb0d013a10d3a80",
+  "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/9999984_00000_d_0000152__600_0.png.json",
+  "attempts": [
+    {
+      "do_sample": false,
+      "seed": 0,
+      "max_new_tokens": 4096,
+      "max_time": 90,
+      "generated_tokens": 3126,
+      "generation_limit_reached": false,
+      "ended_with_eos": false,
+      "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/9999984_00000_d_0000152__600_0_attempt1_response.txt",
+      "elapsed_seconds": 90.048,
+      "error": "ValueError: Generation stopped without EOS; output is incomplete"
+    }
+  ],
+  "width": 800,
+  "height": 800,
+  "image_grid_thw": [
+    [
+      1,
+      50,
+      50
+    ]
+  ],
+  "pixel_values_shape": [
+    2500,
+    1536
+  ],
+  "processed_image_size_wh": [
+    800,
+    800
+  ],
+  "visual_tokens": 625,
+  "error": "RuntimeError: ValueError: Generation stopped without EOS; output is incomplete",
+  "elapsed_seconds": 90.093
+}

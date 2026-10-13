@@ -1,0 +1,88 @@
+{
+  "source": "/home/wrj/AITOD_Cloud/yolo_dataset_v2/images/test/1dc20e8b1.png",
+  "source_sha256": "a989034164054dfaffad0694c6e7510f408c2c4144fcc2f1237fe6b52cd91165",
+  "source_size_wh": [
+    800,
+    800
+  ],
+  "reference_crop": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp6/1dc20e8b1_crop_tiny.png",
+  "reference_crop_sha256": "ffd0ef4e5688d11afd396aa5f4c5d9a656db161b20035d99d0d9c01a8ba09f65",
+  "reference_256": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp6/1dc20e8b1_crop_tiny_256.png",
+  "reference_configuration": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp6/crop_shift_config.json",
+  "reference_crop_xyxy_in_source": [
+    476,
+    647,
+    576,
+    747
+  ],
+  "crop_xyxy_in_source": [
+    476,
+    653,
+    576,
+    753
+  ],
+  "crop_size_wh": [
+    100,
+    100
+  ],
+  "crop_window_shift_xy_in_source_px": [
+    0,
+    6
+  ],
+  "target_position_shift_xy_in_crop_px": [
+    0,
+    -6
+  ],
+  "requested_target_shift_xy_at_256_px": [
+    0,
+    -16
+  ],
+  "target_position_shift_xy_at_256_px": [
+    0.0,
+    -15.36
+  ],
+  "difference_from_requested_shift_xy_px": [
+    0.0,
+    0.6400000000000006
+  ],
+  "target_position_shift_xy_at_256_px_relative_to_exp4": [
+    -15.36,
+    -20.48
+  ],
+  "resize_backend": "torchvision.transforms.v2.functional.resize",
+  "interpolation": "bicubic",
+  "antialias": true,
+  "resize_size_wh": [
+    256,
+    256
+  ],
+  "torch_version": "2.6.0+cu124",
+  "torchvision_version": "0.21.0+cu124",
+  "patch_size_wh": [
+    16,
+    16
+  ],
+  "grid_rows": 16,
+  "grid_columns": 16,
+  "patch_count": 256,
+  "grid_color_rgb": [
+    255,
+    0,
+    0
+  ],
+  "grid_line_width_px": 1,
+  "dash_length_px": 4,
+  "gap_length_px": 4,
+  "outputs": {
+    "crop_100": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp7/1dc20e8b1_crop_tiny.png",
+    "resized_256": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp7/1dc20e8b1_crop_tiny_256.png",
+    "grid_256": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp7/1dc20e8b1_crop_tiny_256_patch16_grid.png",
+    "configuration": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/edited_images/1dc20e8b1/vis_tiny_nowaves/exp7/crop_shift_config.json"
+  },
+  "checks": {
+    "reference_crop_matches_source_exactly": true,
+    "reference_resize_matches_exp6_exactly": true,
+    "shifted_crop_overlap_matches_exactly": true,
+    "source_boundary_padding_required": false
+  }
+}

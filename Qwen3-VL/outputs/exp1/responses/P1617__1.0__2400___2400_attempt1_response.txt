@@ -1,0 +1,8 @@
+```json
+[
+	{"bbox_2d": [468, 430, 483, 463], "label": "storage-tank"},
+	{"bbox_2d": [472, 503, 495, 536], "label": "storage-tank"},
+	{"bbox_2d": [468, 430, 483, 463], "label": "storage-tank"},
+	{"bbox_2d": [472, 503, 495, 536], "label": "storage-tank"}
+]
+```<|im_end|>

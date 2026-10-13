@@ -1,0 +1,19 @@
+```json
+[
+	{"bbox_2d": [322, 170, 347, 185], "label": "vehicle"},
+	{"bbox_2d": [322, 148, 347, 163], "label": "vehicle"},
+	{"bbox_2d": [592, 90, 606, 108], "label": "vehicle"},
+	{"bbox_2d": [817, 84, 836, 104], "label": "vehicle"},
+	{"bbox_2d": [935, 63, 970, 77], "label": "vehicle"},
+	{"bbox_2d": [705, 952, 720, 978], "label": "vehicle"},
+	{"bbox_2d": [817, 952, 833, 978], "label": "vehicle"},
+	{"bbox_2d": [772, 938, 809, 978], "label": "vehicle"},
+	{"bbox_2d": [772, 908, 809, 938], "label": "vehicle"},
+	{"bbox_2d": [817, 848, 836, 870], "label": "vehicle"},
+	{"bbox_2d": [817, 870, 836, 892], "label": "vehicle"},
+	{"bbox_2d": [817, 892, 836, 914], "label": "vehicle"},
+	{"bbox_2d": [817, 914, 836, 938], "label": "vehicle"},
+	{"bbox_2d": [817, 938, 836, 960], "label": "vehicle"},
+	{"bbox_2d": [817, 960, 836, 982], "label": "vehicle"},
+	{"bbox_2d": [817, 982, 836, 1004], "label": "vehicle"},
+	{"bbox_2d": [817, 10

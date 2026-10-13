@@ -1,0 +1,74 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/6a4a3af4a.png",
+  "status": "ok",
+  "input_sha256": "8976d57b6f437d8a48f1b7f8eb003e296d2cb3c319a655757da1fdc9ea12ce5d",
+  "result_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/results/6a4a3af4a.png.json",
+  "attempts": [
+    {
+      "max_new_tokens": 4096,
+      "generated_tokens": 74,
+      "generation_limit_reached": false,
+      "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/6a4a3af4a_attempt1_response.txt"
+    }
+  ],
+  "width": 800,
+  "height": 800,
+  "image_grid_thw": [
+    [
+      1,
+      50,
+      50
+    ]
+  ],
+  "pixel_values_shape": [
+    2500,
+    1536
+  ],
+  "processed_image_size_wh": [
+    800,
+    800
+  ],
+  "visual_tokens": 625,
+  "raw_output": "```json\n[\n\t{\"bbox_2d\": [530, 98, 543, 115], \"label\": \"airplane\"},\n\t{\"bbox_2d\": [548, 100, 563, 117], \"label\": \"airplane\"}\n]\n```",
+  "full_output": "```json\n[\n\t{\"bbox_2d\": [530, 98, 543, 115], \"label\": \"airplane\"},\n\t{\"bbox_2d\": [548, 100, 563, 117], \"label\": \"airplane\"}\n]\n```<|im_end|>",
+  "response_file": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/responses/6a4a3af4a_response.txt",
+  "generated_tokens": 74,
+  "generation_limit_reached": false,
+  "final_max_new_tokens": 4096,
+  "detections": [
+    {
+      "label": "airplane",
+      "bbox_2d": [
+        530.0,
+        98.0,
+        543.0,
+        115.0
+      ],
+      "bbox_xyxy": [
+        424.0,
+        78.4,
+        434.4,
+        92.0
+      ]
+    },
+    {
+      "label": "airplane",
+      "bbox_2d": [
+        548.0,
+        100.0,
+        563.0,
+        117.0
+      ],
+      "bbox_xyxy": [
+        438.4,
+        80.0,
+        450.4,
+        93.6
+      ]
+    }
+  ],
+  "detection_count": 2,
+  "warnings": [],
+  "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/exp1/6a4a3af4a_vis.png",
+  "elapsed_seconds": 3.999
+}

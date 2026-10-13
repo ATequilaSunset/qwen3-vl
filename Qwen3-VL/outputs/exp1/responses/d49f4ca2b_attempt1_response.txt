@@ -1,0 +1,5 @@
+```json
+[
+	{"bbox_2d": [396, 0, 517, 117], "label": "airplane"}
+]
+```<|im_end|>

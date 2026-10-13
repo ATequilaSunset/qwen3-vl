@@ -1,0 +1,109 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/b0aff03c7.png",
+  "status": "ok",
+  "width": 800,
+  "height": 800,
+  "image_id": 1292,
+  "ground_truth": [
+    {
+      "label": "ship",
+      "bbox_xyxy": [
+        52.0,
+        385.0,
+        70.0,
+        398.0
+      ]
+    },
+    {
+      "label": "ship",
+      "bbox_xyxy": [
+        227.0,
+        315.0,
+        245.0,
+        321.0
+      ]
+    },
+    {
+      "label": "ship",
+      "bbox_xyxy": [
+        248.0,
+        197.0,
+        263.0,
+        208.0
+      ]
+    }
+  ],
+  "raw_output": "[]",
+  "generated_tokens": 2,
+  "generation_limit_reached": false,
+  "detections": [],
+  "warnings": [],
+  "visualization": "/data/lz/pythonProjects/qwen3-vl/Qwen3-VL/outputs/aitod_grounding/visualizations/b0aff03c7.png.png",
+  "metrics": {
+    "airplane": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "bridge": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "storage-tank": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "ship": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "swimming-pool": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "vehicle": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "person": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "wind-mill": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "elapsed_seconds": 0.58
+}

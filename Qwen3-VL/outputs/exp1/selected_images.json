@@ -1,0 +1,189 @@
+{
+  "image_dir": "/data/wrj/AI-TOD/aitod/images/test",
+  "eligible_image_count": 14018,
+  "sampling_seed": 861235812,
+  "sampling_method": "random.Random(seed).sample(sorted eligible file paths, 20)",
+  "sample_without_replacement": true,
+  "selected_images": [
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/6a4a3af4a.png",
+      "name": "6a4a3af4a.png",
+      "size_wh": [
+        800,
+        800
+      ],
+      "sha256": "8976d57b6f437d8a48f1b7f8eb003e296d2cb3c319a655757da1fdc9ea12ce5d"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/P1617__1.0__2400___2400.png",
+      "name": "P1617__1.0__2400___2400.png",
+      "size_wh": [
+        800,
+        800
+      ],
+      "sha256": "bc16ab1ae49f3f1bca5b48caf0d47b301b3d79170e6dd79635f83abf3df74aea"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/eb81470a3.png",
+      "name": "eb81470a3.png",
+      "size_wh": [
+        800,
+        800
+      ],
+      "sha256": "86eebaecf0095dad0aebe294c76ef3a2e6c23d2543a4dcbb99e7276c4e2b72a1"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/bfc1bfad1.png",
+      "name": "bfc1bfad1.png",
+      "size_wh": [
+        800,
+        800
+      ],
+      "sha256": "5c30bddfd4c07d6f6e021da071d60744f4d39e24b1eb7e468594b7a745596cfb"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/5262658a8.png",
+      "name": "5262658a8.png",
+      "size_wh": [
+        800,
+        800
+      ],
+      "sha256": "b5fdc156328f6a344f6a0bd7e9947e0e1593aab6f2239bde6bc8f251f6946f98"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/P2339__1.0__1686___1389.png",
+      "name": "P2339__1.0__1686___1389.png",
+      "size_wh": [
+        800,
+        800
+      ],
+      "sha256": "cc87504443a91978b118c75cb9a9103ee41c734700a4259d13c4db7509c98e57"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/1920__2265_1725.png",
+      "name": "1920__2265_1725.png",
+      "size_wh": [
+        800,
+        800
+      ],
+      "sha256": "54cb6bf24fd54b4b91523e77b2332501bab1434dc31fda104a2fbcb7669e86fc"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/c74e13a33.png",
+      "name": "c74e13a33.png",
+      "size_wh": [
+        800,
+        800
+      ],
+      "sha256": "758bf5dc0a459b6def67d00539f99ddd608226f9561464e644bb2eb71db8a598"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/d49f4ca2b.png",
+      "name": "d49f4ca2b.png",
+      "size_wh": [
+        800,
+        800
+      ],
+      "sha256": "ca6c284480fa5012bc4910df91109981217dabd607606c4518811f33b79cdabe"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/2552__1800_1800.png",
+      "name": "2552__1800_1800.png",
+      "size_wh": [
+        800,
+        800
+      ],
+      "sha256": "f44fa5e0afc2ddd95da430f44b16f86b014e385bc4bc23c967675cb39468bea9"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/5541240c3.png",
+      "name": "5541240c3.png",
+      "size_wh": [
+        800,
+        800
+      ],
+      "sha256": "b47a44b3e0e2e601fb073b5f6c1ef0dbc030dcb3599a92324aaba33fc0e5d5b7"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/1bc71b6ae.png",
+      "name": "1bc71b6ae.png",
+      "size_wh": [
+        800,
+        800
+      ],
+      "sha256": "111a60a552876f8e924378efbf719f175ede6d96db5b260cfa9cd9117c9c7679"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/0000313_00201_d_0000437__0_0.png",
+      "name": "0000313_00201_d_0000437__0_0.png",
+      "size_wh": [
+        800,
+        800
+      ],
+      "sha256": "8485ba22a88d23f9c80a8c9097d3ede01c94dccfd92f4ea2c34be8c7dd243e39"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/543607ccf.png",
+      "name": "543607ccf.png",
+      "size_wh": [
+        800,
+        800
+      ],
+      "sha256": "158916ea913ee91c6a50b8acd0b13eeb90b0704864fa29e5548923dd9ebc3083"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/9999984_00000_d_0000152__600_0.png",
+      "name": "9999984_00000_d_0000152__600_0.png",
+      "size_wh": [
+        800,
+        800
+      ],
+      "sha256": "24263442c5275d429c7cfcd3564aa282b5ef576f7e97d628deb0d013a10d3a80"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/39a78dd53.png",
+      "name": "39a78dd53.png",
+      "size_wh": [
+        800,
+        800
+      ],
+      "sha256": "a9f26d70ce139fc3519f2a307c01e32f36bfdea9df48ee218bdee6d23ce48c50"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/87b9eb218.png",
+      "name": "87b9eb218.png",
+      "size_wh": [
+        800,
+        800
+      ],
+      "sha256": "d489f667e7561678895ec52e4d5c446c3ec797e31fbecc250af487d0108127e2"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/a68fb01d7.png",
+      "name": "a68fb01d7.png",
+      "size_wh": [
+        800,
+        800
+      ],
+      "sha256": "bb4b83a7af88bf187851ea57337fc7dd121bff5c74346955c265c2ec12fee7f7"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/3ff2e23f0.png",
+      "name": "3ff2e23f0.png",
+      "size_wh": [
+        800,
+        800
+      ],
+      "sha256": "71038e501599d0862a272b8c60838212b28e623437187ba04021eb18852fa9ba"
+    },
+    {
+      "image": "/data/wrj/AI-TOD/aitod/images/test/2d8c35e69.png",
+      "name": "2d8c35e69.png",
+      "size_wh": [
+        800,
+        800
+      ],
+      "sha256": "668520342b491951a57f407613d72b003616a63135e88d21105c0c712bab1214"
+    }
+  ]
+}

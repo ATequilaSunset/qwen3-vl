@@ -1,0 +1,500 @@
+{
+  "image": "/data/wrj/AI-TOD/aitod/images/test/1432__2400_0.png",
+  "status": "error",
+  "width": 800,
+  "height": 800,
+  "image_id": 7189,
+  "ground_truth": [
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        716.0,
+        739.0,
+        742.0,
+        755.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        714.0,
+        723.0,
+        736.0,
+        739.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        726.0,
+        733.0,
+        752.0,
+        751.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        660.0,
+        693.0,
+        696.0,
+        721.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        568.0,
+        651.0,
+        598.0,
+        669.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        378.0,
+        687.0,
+        396.0,
+        705.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        339.0,
+        660.0,
+        357.0,
+        672.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        250.0,
+        660.0,
+        268.0,
+        676.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        228.0,
+        647.0,
+        246.0,
+        663.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        205.0,
+        628.0,
+        223.0,
+        644.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        273.0,
+        567.0,
+        287.0,
+        581.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        316.0,
+        537.0,
+        330.0,
+        547.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        25.0,
+        222.0,
+        53.0,
+        240.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        67.0,
+        232.0,
+        91.0,
+        250.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        81.0,
+        339.0,
+        105.0,
+        355.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        321.0,
+        430.0,
+        341.0,
+        444.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        -10.0,
+        185.0,
+        12.0,
+        205.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        54.0,
+        326.0,
+        74.0,
+        346.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        60.0,
+        310.0,
+        84.0,
+        326.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        14.0,
+        155.0,
+        24.0,
+        167.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        391.0,
+        709.0,
+        409.0,
+        721.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        293.0,
+        701.0,
+        311.0,
+        719.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        195.0,
+        298.0,
+        211.0,
+        310.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        283.0,
+        343.0,
+        317.0,
+        357.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        767.0,
+        790.0,
+        785.0,
+        806.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        21.0,
+        249.0,
+        37.0,
+        261.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        209.0,
+        278.0,
+        217.0,
+        290.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        784.0,
+        785.0,
+        796.0,
+        799.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        353.0,
+        764.0,
+        373.0,
+        778.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        534.0,
+        745.0,
+        552.0,
+        751.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        485.0,
+        535.0,
+        499.0,
+        549.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        477.0,
+        788.0,
+        493.0,
+        800.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        194.0,
+        273.0,
+        206.0,
+        285.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        470.0,
+        544.0,
+        488.0,
+        558.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        309.0,
+        312.0,
+        333.0,
+        334.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        247.0,
+        370.0,
+        265.0,
+        386.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        442.0,
+        745.0,
+        458.0,
+        759.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        160.0,
+        244.0,
+        178.0,
+        256.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        748.0,
+        759.0,
+        760.0,
+        771.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        409.0,
+        489.0,
+        429.0,
+        507.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        270.0,
+        678.0,
+        292.0,
+        694.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        200.0,
+        333.0,
+        216.0,
+        347.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        191.0,
+        258.0,
+        199.0,
+        272.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        417.0,
+        724.0,
+        431.0,
+        736.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        426.0,
+        734.0,
+        446.0,
+        748.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        286.0,
+        691.0,
+        304.0,
+        703.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        490.0,
+        561.0,
+        506.0,
+        573.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        582.0,
+        615.0,
+        590.0,
+        625.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        367.0,
+        773.0,
+        387.0,
+        789.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        748.0,
+        642.0,
+        768.0,
+        660.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        27.0,
+        169.0,
+        37.0,
+        179.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        339.0,
+        751.0,
+        359.0,
+        763.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        216.0,
+        637.0,
+        232.0,
+        647.0
+      ]
+    },
+    {
+      "label": "vehicle",
+      "bbox_xyxy": [
+        765.0,
+        773.0,
+        783.0,
+        787.0
+      ]
+    }
+  ],
+  "raw_output": "```json\n[\n\t{\"bbox_2d\": [89, 827, 240, 950], \"label\": \"swimming-pool\"},\n\t{\"bbox_2d\": [30, 278, 62, 300], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [25, 312, 47, 332], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [85, 293, 112, 315], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [135, 258, 162, 285], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [185, 278, 205, 300], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [205, 297, 225, 318], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [225, 312, 245, 332], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [245, 332, 265, 354], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 354, 275, 376], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 376, 275, 398], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 400, 275, 422], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 422, 275, 444], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 444, 275, 466], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 466, 275, 488], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 488, 275, 510], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 510, 275, 532], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 532, 275, 554], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 554, 275, 576], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 576, 275, 598], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 598, 275, 620], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 620, 275, 642], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 642, 275, 664], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 664, 275, 686], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 686, 275, 708], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 708, 275, 730], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 730, 275, 752], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 752, 275, 774], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 774, 275, 796], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 796, 275, 818], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 818, 275, 840], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 840, 275, 862], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 862, 275, 884], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 884, 275, 906], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 906, 275, 928], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 928, 275, 950], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 950, 275, 972], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 972, 275, 994], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [255, 994, 275, 1016], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [305, 820, 325, 842], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [305, 842, 325, 864], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [305, 864, 325, 886], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [305, 886, 325, 908], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [305, 908, 325, 930], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [305, 930, 325, 952], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [305, 952, 325, 974], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [305, 974, 325, 996], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [305, 996, 325, 1018], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [335, 702, 355, 724], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 532, 415, 554], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 554, 415, 576], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 576, 415, 598], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 598, 415, 620], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 620, 415, 642], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 642, 415, 664], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 664, 415, 686], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 686, 415, 708], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 708, 415, 730], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 730, 415, 752], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 752, 415, 774], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 774, 415, 796], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 796, 415, 818], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 818, 415, 840], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 840, 415, 862], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 862, 415, 884], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 884, 415, 906], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 906, 415, 928], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 928, 415, 950], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 950, 415, 972], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 972, 415, 994], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [395, 994, 415, 1016], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [445, 842, 465, 864], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [445, 864, 465, 886], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [445, 886, 465, 908], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [445, 908, 465, 930], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [445, 930, 465, 952], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [445, 952, 465, 974], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [445, 974, 465, 996], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [445, 996, 465, 1018], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [475, 864, 495, 886], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [475, 886, 495, 908], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [475, 908, 495, 930], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [475, 930, 495, 952], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [475, 952, 495, 974], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [475, 974, 495, 996], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [475, 996, 495, 1018], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [505, 886, 525, 908], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [505, 908, 525, 930], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [505, 930, 525, 952], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [505, 952, 525, 974], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [505, 974, 525, 996], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [505, 996, 525, 1018], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [535, 908, 555, 930], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [535, 930, 555, 952], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [535, 952, 555, 974], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [535, 974, 555, 996], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [535, 996, 555, 1018], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [565, 908, 585, 930], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [565, 930, 585, 952], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [565, 952, 585, 974], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [565, 974, 585, 996], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [565, 996, 585, 1018], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [595, 672, 615, 694], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [605, 694, 625, 716], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [725, 760, 745, 782], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [825, 864, 845, 886], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [825, 886, 845, 908], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [825, 908, 845, 930], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [825, 930, 845, 952], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [825, 952, 845, 974], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [825, 974, 845, 996], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [825, 996, 845, 1018], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [885, 896, 905, 918], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [885, 918, 905, 940], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [885, 940, 905, 962], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [885, 962, 905, 984], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [885, 984, 905, 1006], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [885, 1006, 905, 1028], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [915, 940, 935, 962], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [915, 962, 935, 984], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [915, 984, 935, 1006], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [915, 1006, 935, 1028], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [915, 1028, 935, 1050], \"label\": \"vehicle\"},\n\t{\"bbox_2d\": [945, 940, 9",
+  "generated_tokens": 4096,
+  "generation_limit_reached": true,
+  "error": "ValueError: 模型输出不是完整 JSON: Expecting ',' delimiter: line 125 column 26 (char 6932)",
+  "elapsed_seconds": 201.871
+}
