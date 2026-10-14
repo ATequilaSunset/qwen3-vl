@@ -1,0 +1,5 @@
+# Install a suitable torch/torchvision pair for your CPU/CUDA environment first.
+# Reference server pair: torch 2.6.0+cu124 / torchvision 0.21.0+cu124.
+transformers==5.19.0
+safetensors>=0.4.3
+Pillow>=10.0
