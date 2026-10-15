@@ -1,7 +1,8 @@
-# Qwen3-VL 独立 ViT：第一阶段
+# Qwen3-VL 独立 ViT：提取与检测实验
 
-本目录只完成 **提取主 Merger 之前的 ViT，以及验证提取是否正确**。
-输出可以供后续检测头使用；目前没有训练检测头，也没有计算 AI-TOD mAP。
+第一阶段完成 **提取主 Merger 之前的 ViT，以及验证提取是否正确**。
+第二阶段已加入 object queries、检测 decoder、分类/回归头和训练评估入口，
+使用说明见 [DETECTION.md](DETECTION.md)。真实权重的一致性验收通过后再进入第二阶段。
 现有 `infer.py` 和历史实验均不需要改动。
 
 ## 1. 提取边界
@@ -124,7 +125,7 @@ feature_map = features.feature_maps[0]  # [C,H,W]
 
 前向接口保留梯度。实验 A 冻结 ViT 参数、训练检测头；实验 B 更新 ViT 和检测头。
 冻结可用 `vit.requires_grad_(False); vit.eval()`；微调可用 `vit.requires_grad_(True); vit.train()`。
-训练头、损失、AI-TOD 标注版本与 mAP 评估属于下一阶段，不在本次代码内。
+检测头、匹配损失、AI-TOD 数据预检与 COCO 风格 mAP 评估现已提供，见 [DETECTION.md](DETECTION.md)。
 
 ## 6. 离线开发检查
 
